@@ -140,6 +140,7 @@ namespace Valve.VR.Extras
                 argsClick.flags = 0;
                 argsClick.target = hit.transform;
                 OnPointerClick(argsClick);
+                Debug.Log("Zeero");
             }
 
             if (interactWithUI != null && interactWithUI.GetState(pose.inputSource))
