@@ -1,19 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using UnityEngine.Rendering;
-using UnityEngine.Rendering.PostProcessing;
+using Valve.VR;
 
 public class rays : MonoBehaviour
 {
-
-    public float distante;
+   
     public GameObject gm;
-    public GameObject gm1;
-    public GameObject point;
-    public LineRenderer lr;
+    public GameObject point; 
+    //public LineRenderer lr;
 
     void Start()
     {
