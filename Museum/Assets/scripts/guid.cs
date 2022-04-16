@@ -85,6 +85,7 @@ public class guid : MonoBehaviour
         if (t > frazi.Count - 1)
         {
             Next.SetActive(false);
+            Invoke("time_to_clear", 5f);
         }
         if (_audio < frazi.Count)
         {
@@ -92,6 +93,11 @@ public class guid : MonoBehaviour
             guid_text.Play();
             _audio++;
         }
+    }
+
+    public void time_to_clear()
+    {
+        tx.text = "";
     }
     public void text()
     {

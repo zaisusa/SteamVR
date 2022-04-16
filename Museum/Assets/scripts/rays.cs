@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.PostProcessing;
 
 public class rays : MonoBehaviour
 {
 
-    [SerializeField] GraphicRaycaster m_Raycaster;
-    PointerEventData m_PointerEventData;
-    [SerializeField] EventSystem m_EventSystem;
-    [SerializeField] RectTransform canvasRect;
+    public float distante;
+    public GameObject gm;
+    public GameObject gm1;
+    public GameObject point;
+    public LineRenderer lr;
 
     void Start()
     {
@@ -18,23 +21,16 @@ public class rays : MonoBehaviour
     }
     void Update()
     {
-        Ray raycast = new Ray(transform.position, Vector3.forward);
         RaycastHit hit;
-        Physics.Raycast(raycast, out hit);
-
-
-        //Set up the new Pointer Event
-        m_PointerEventData = new PointerEventData(m_EventSystem);
-        //Set the Pointer Event Position to that of the game object
-        m_PointerEventData.position = hit.transform.position;
-
-        //Create a list of Raycast Results
-        List<RaycastResult> results = new List<RaycastResult>();
-
-        //Raycast using the Graphics Raycaster and mouse click position
-        m_Raycaster.Raycast(m_PointerEventData, results);
-
-        if (results.Count > 0) Debug.Log("Hit " + results[0].gameObject.name);
+        var rays = Physics.Raycast(gm.transform.position, gm.transform.forward, out hit, Mathf.Infinity);
+        Debug.DrawRay(gm.transform.position, hit.point, Color.yellow);
+        Vector3 endpos = transform.position + (transform.forward * Mathf.Infinity);
+        if (hit.collider != null)
+        {
+            endpos = hit.point;
+            Debug.Log("Hit " + hit.collider.gameObject.name+ hit. point);
+            point.transform.position = endpos;
+        }
 
     }
     
