@@ -631,6 +631,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Pointer.cs" />
     <Compile Include="Assets\TEstingGUI.cs" />
     <Compile Include="Assets\scripts\Olga_Talking.cs" />
     <Compile Include="Assets\scripts\guid.cs" />
