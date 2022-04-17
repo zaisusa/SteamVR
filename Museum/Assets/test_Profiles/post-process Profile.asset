@@ -18,27 +18,27 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 18.14
+    value: 20.51
   threshold:
     overrideState: 1
-    value: 3.84
+    value: 1.33
   softKnee:
     overrideState: 1
-    value: 0.254
+    value: 0.833
   clamp:
-    overrideState: 1
+    overrideState: 0
     value: 65466.05
   diffusion:
-    overrideState: 1
-    value: 7
+    overrideState: 0
+    value: 5.72
   anamorphicRatio:
-    overrideState: 1
+    overrideState: 0
     value: -0.08
   color:
-    overrideState: 1
+    overrideState: 0
     value: {r: 0.03137255, g: 1.137255, b: 0.30588236, a: 1}
   fastMode:
-    overrideState: 1
+    overrideState: 0
     value: 1
   dirtTexture:
     overrideState: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
   m_Name: ColorGrading
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
