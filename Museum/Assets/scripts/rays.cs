@@ -19,7 +19,7 @@ public class rays : MonoBehaviour
     {
         RaycastHit hit;
         var rays = Physics.Raycast(gm.transform.position, gm.transform.forward, out hit, Mathf.Infinity);
-        Debug.DrawRay(gm.transform.position, hit.point, Color.yellow);
+        //Debug.DrawRay(gm.transform.position, hit.point, Color.yellow);
         Vector3 endpos = transform.position + (transform.forward * Mathf.Infinity);
         if (hit.collider != null)
         {
