@@ -69,6 +69,7 @@
     <Compile Include="Assets\TEstingGUI.cs" />
     <Compile Include="Assets\VRInputModule.cs" />
     <Compile Include="Assets\scripts\Olga_Talking.cs" />
+    <Compile Include="Assets\scripts\TP_Player_for_button.cs" />
     <Compile Include="Assets\scripts\guid.cs" />
     <Compile Include="Assets\scripts\rays.cs" />
     <Compile Include="Assets\uiInteraction.cs" />
