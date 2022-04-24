@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Pointer : MonoBehaviour
 {
-    public float lenght = 5f;
+    public float lenght = 555f;
     public GameObject Dot;
     public VRInputModule m_inputmModule;
 
