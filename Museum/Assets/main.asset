@@ -81,40 +81,6 @@ MonoBehaviour:
   opacity:
     overrideState: 0
     value: 1
---- !u!114 &-4204834786644121220
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
-  m_Name: LensDistortion
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  intensity:
-    overrideState: 0
-    value: 0
-  intensityX:
-    overrideState: 0
-    value: 1
-  intensityY:
-    overrideState: 0
-    value: 1
-  centerX:
-    overrideState: 0
-    value: 0
-  centerY:
-    overrideState: 0
-    value: 0
-  scale:
-    overrideState: 0
-    value: 1
 --- !u!114 &-3836742007055638513
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -133,13 +99,13 @@ MonoBehaviour:
     value: 1
   focusDistance:
     overrideState: 1
-    value: 4.08
+    value: 6
   aperture:
     overrideState: 1
-    value: 12.1
+    value: 6.3
   focalLength:
     overrideState: 1
-    value: 82
+    value: 70
   kernelSize:
     overrideState: 1
     value: 2
@@ -189,7 +155,6 @@ MonoBehaviour:
   - {fileID: 1157182890388315926}
   - {fileID: -3836742007055638513}
   - {fileID: 7214799512429239416}
-  - {fileID: -4204834786644121220}
   - {fileID: 4347978855690089472}
   - {fileID: 7399900016930088362}
   - {fileID: -4968338504412092005}
@@ -245,11 +210,11 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   temperature:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -2
   tint:
     overrideState: 0
-    value: 0
+    value: -100
   colorFilter:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -297,10 +262,10 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 0.90384173, y: 1, z: 0.9665776, w: 0}
   gamma:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 1, y: 1, z: 1, w: 0.049652413}
   gain:
     overrideState: 0
     value: {x: 1, y: 1, z: 1, w: 0}
@@ -941,7 +906,7 @@ MonoBehaviour:
       - 0.984375
       - 0.9921875
   hueVsHueCurve:
-    overrideState: 0
+    overrideState: 1
     value:
       curve:
         serializedVersion: 2
@@ -1364,7 +1329,7 @@ MonoBehaviour:
       - 0.5
       - 0.5
   lumVsSatCurve:
-    overrideState: 0
+    overrideState: 1
     value:
       curve:
         serializedVersion: 2
@@ -1521,11 +1486,11 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   intensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 2
   threshold:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 3
   softKnee:
     overrideState: 0
     value: 0.5
@@ -1594,7 +1559,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.27
+    value: 0.05
   color:
     overrideState: 0
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -1617,11 +1582,11 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   radius:
-    overrideState: 0
-    value: 0.25
+    overrideState: 1
+    value: 1.56
   quality:
-    overrideState: 0
-    value: 2
+    overrideState: 1
+    value: 4
 --- !u!114 &7214799512429239416
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1643,13 +1608,13 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.772
+    value: 0
   size:
     overrideState: 1
-    value: 3
+    value: 0.3
   lumContrib:
     overrideState: 1
-    value: 1
+    value: 0.004
 --- !u!114 &7399900016930088362
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1667,8 +1632,8 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   preset:
-    overrideState: 0
-    value: 2
+    overrideState: 1
+    value: 5
   maximumIterationCount:
     overrideState: 0
     value: 16
@@ -1679,11 +1644,11 @@ MonoBehaviour:
     overrideState: 0
     value: 8
   maximumMarchDistance:
-    overrideState: 0
+    overrideState: 1
     value: 100
   distanceFade:
-    overrideState: 0
+    overrideState: 1
     value: 0.5
   vignette:
-    overrideState: 0
+    overrideState: 1
     value: 0.5
