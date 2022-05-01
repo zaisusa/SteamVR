@@ -444,9 +444,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ac3d0000
-      m_LastClickedID: 15788
-      m_ExpandedIDs: d4faffff763c0000
+      m_SelectedIDs: 0a720000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 44d0ffffa6d1ffff08d3ffff6ad4ffffccd5ffff2ed7ffff02deffff0ae1ffff24e1ffffc0e2ffff22e4ffff92e5fffff4e6ffff66e8ffffc8e9ffff38ebffff9cecffff54f2ffff3afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.2235956, y: -14.428734, z: 24.924007}
+    m_Target: {x: 19.440876, y: -14.231855, z: -15.914824}
     speed: 2
-    m_Value: {x: 4.2235956, y: -14.428734, z: 24.924007}
+    m_Value: {x: 19.440876, y: -14.231855, z: -15.914824}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -554,13 +554,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.28723842, y: -0.08404551, z: 0.02537717, w: -0.9538616}
+    m_Target: {x: 0.13454868, y: 0.8599213, z: -0.29168135, w: 0.3967863}
     speed: 2
-    m_Value: {x: -0.28862086, y: -0.08543459, z: 0.025935352, w: -0.9532714}
+    m_Value: {x: 0.13513786, y: 0.8594461, z: -0.29295844, w: 0.39656714}
   m_Size:
-    m_Target: 19.586033
+    m_Target: 21.388437
     speed: 2
-    m_Value: 20.508934
+    m_Value: 20.467403
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -624,11 +624,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Sparrow_GeneralMotor\Documents\GitHub\steamvr\Museum
   m_LockTracker:
@@ -637,7 +637,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 58}
     m_SelectedIDs: 64420000
     m_LastClickedID: 16996
-    m_ExpandedIDs: 000000006442000066420000684200006a4200006c4200006e4200007042000072420000744200007642000000ca9a3b
+    m_ExpandedIDs: 00000000524200005442000056420000584200005a4200005c4200005e42000060420000624200006442000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -665,7 +665,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006442000066420000684200006a4200006c4200006e42000070420000724200007442000076420000
+    m_ExpandedIDs: 00000000524200005442000056420000584200005a4200005c4200005e420000604200006242000064420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000224d000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
