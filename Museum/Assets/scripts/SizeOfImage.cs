@@ -12,8 +12,10 @@ namespace Valve.VR.Extras
         bool OnText = false;
         public TMP_Text tx;
 
+        Mask mask;
+
         [SerializeField]  GameObject panel;
-        GameObject button;
+        [SerializeField] GameObject button;
 
         // Start is called before the first frame update
         void Start()
@@ -21,6 +23,8 @@ namespace Valve.VR.Extras
             panel = transform.parent.gameObject;
             //panel = this.gameObject;
             button = transform.GetChild(0).gameObject;
+
+            mask = panel.GetComponent<Mask>();
         }
 
         // Update is called once per frame
@@ -38,14 +42,17 @@ namespace Valve.VR.Extras
                 panel.transform.localScale += new Vector3(1, 1, 1);
                 button.SetActive(true);
 
+                mask.enabled = false;
             }
             else
             {
                 panel.transform.position += new Vector3(0.2f, 0, 0);
                 panel.transform.localScale += new Vector3(-1, -1, -1);
                 button.SetActive(false);
+                
                 tx.enabled = false;
 
+                mask.enabled = true;
             }
             Scale = !Scale;
         }
