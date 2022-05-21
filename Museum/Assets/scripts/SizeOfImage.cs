@@ -41,7 +41,6 @@ namespace Valve.VR.Extras
                panel.transform.position += new Vector3(-0.2f, 0, 0);
                 panel.transform.localScale += new Vector3(1, 1, 1);
                 button.SetActive(true);
-
                 mask.enabled = false;
             }
             else
@@ -49,9 +48,7 @@ namespace Valve.VR.Extras
                 panel.transform.position += new Vector3(0.2f, 0, 0);
                 panel.transform.localScale += new Vector3(-1, -1, -1);
                 button.SetActive(false);
-                
                 tx.enabled = false;
-
                 mask.enabled = true;
             }
             Scale = !Scale;
