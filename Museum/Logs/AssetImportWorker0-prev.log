@@ -15,11 +15,11 @@ C:/Users/Sparrow_GeneralMotor/Desktop/SteamVR/Museum
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55984
+55943
 Successfully changed project path to: C:/Users/Sparrow_GeneralMotor/Desktop/SteamVR/Museum
 C:/Users/Sparrow_GeneralMotor/Desktop/SteamVR/Museum
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,93 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002223 seconds.
+Registered in 0.002557 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.442 seconds
+- Completed reload, in  0.775 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1442ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1225ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (792ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (655ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005188 seconds.
+Registered in 0.002927 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sparrow_GeneralMotor\Desktop\SteamVR\Museum\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.909 seconds
+- Completed reload, in  1.373 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1910ms)
-		BeginReloadAssembly (223ms)
+	ReloadAssembly (1374ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1573ms)
-			LoadAssemblies (173ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (844ms)
+			SetupTypeCache (390ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (402ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (387ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.5 MB.
-System memory in use after: 96.6 MB.
+System memory in use before: 96.9 MB.
+System memory in use after: 96.9 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2272.
-Total: 4.988000 ms (FindLiveObjects: 0.454900 ms CreateObjectMapping: 0.106000 ms MarkObjects: 4.323500 ms  DeleteObjects: 0.102100 ms)
+Total: 4.322200 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.055700 ms MarkObjects: 3.852500 ms  DeleteObjects: 0.092000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -131,4 +130,198 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/All Tests/test/LightingData.asset
+  artifactKey: Guid(62c0be2834b91a0438d90f3f1af4388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Tests/test/LightingData.asset using Guid(62c0be2834b91a0438d90f3f1af4388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c9ea2b2b89c89be8a7275b61948f6f') in 0.049213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/All Tests/test bake light
+  artifactKey: Guid(5d26614a379d9a44ea2d3903c0684d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Tests/test bake light using Guid(5d26614a379d9a44ea2d3903c0684d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb767960c744dbc992970e6876a5bc5') in 0.018468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/All Tests/test bake light/LightingData.asset
+  artifactKey: Guid(9b6599d48a7d96b4a8556dd9469499ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Tests/test bake light/LightingData.asset using Guid(9b6599d48a7d96b4a8556dd9469499ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3847d9a404cf71ad692c2693a3ed1c2d') in 0.050031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/All Tests/test
+  artifactKey: Guid(01c33ead0ff95b54289208330ec00aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Tests/test using Guid(01c33ead0ff95b54289208330ec00aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cf002ee633422c3932a3aa55f369ce') in 0.008531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 404.066256 seconds.
+  path: Assets/models/Borders/Mat/Border_mat.mat
+  artifactKey: Guid(b49dcbee34374a446904a6a2aeb928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Borders/Mat/Border_mat.mat using Guid(b49dcbee34374a446904a6a2aeb928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0ce13bcba67722fe1f198f6c6ed19b') in 0.156884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.930229 seconds.
+  path: Assets/models/Подставки
+  artifactKey: Guid(4535f483614e9a140b0835422c75cf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки using Guid(4535f483614e9a140b0835422c75cf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45948991f9b239a188401eb32c01f873') in 0.012782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.044329 seconds.
+  path: Assets/models/вазы/ваза 1/ваза усеченная.blend
+  artifactKey: Guid(9e29111c1b9ab2a4089d1c50bfa160c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/вазы/ваза 1/ваза усеченная.blend using Guid(9e29111c1b9ab2a4089d1c50bfa160c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8662bd5c84514d23323ac6889f0596b') in 0.088448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.130721 seconds.
+  path: Assets/models/Подставки/1
+  artifactKey: Guid(9339e3227d01f7a43b67ab70e8bea238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/1 using Guid(9339e3227d01f7a43b67ab70e8bea238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd96ef4b1558191774f7f7fc432d02e1') in 0.015460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042059 seconds.
+  path: Assets/models/Подставки/1/Подставка.fbx
+  artifactKey: Guid(8c9e1115b49f07448ac5409da9c1e1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/1/Подставка.fbx using Guid(8c9e1115b49f07448ac5409da9c1e1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b88224125b6f01fd571b20bce4bbef9') in 0.069684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/models/Подставки/1/подставка.blend
+  artifactKey: Guid(468c40580c180b143a6ab51030573491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/1/подставка.blend using Guid(468c40580c180b143a6ab51030573491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0571c88c315731dd4675a3ee64fa24a0') in 0.050897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.624953 seconds.
+  path: Assets/models/Подставки/2
+  artifactKey: Guid(65d3376f79e86c2429411ed79e434988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/2 using Guid(65d3376f79e86c2429411ed79e434988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f3e2c11afbbe391e9d51e846498868') in 0.008947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059139 seconds.
+  path: Assets/models/Подставки/2/стол-полка.blend
+  artifactKey: Guid(1cdd51634e404214fbec97688c2836ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/2/стол-полка.blend using Guid(1cdd51634e404214fbec97688c2836ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1654c8b81804f22b2dd5774323694272') in 0.031067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/models/Подставки/2/стол-полкаа.fbx
+  artifactKey: Guid(9066476d35b88624caa1f6a9177ac12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/2/стол-полкаа.fbx using Guid(9066476d35b88624caa1f6a9177ac12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ca90d684691c8472b0933d43c7b2f9') in 0.033533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.642553 seconds.
+  path: Assets/models/Подставки/3
+  artifactKey: Guid(66f299de5cd12a446af3ea7e17f10664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/3 using Guid(66f299de5cd12a446af3ea7e17f10664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa3eca9a361b094f4fc8f598b27fee1') in 0.007592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055053 seconds.
+  path: Assets/models/Подставки/3/ПОЛКА1.blend
+  artifactKey: Guid(5fc3f6bc0f8231740a6e91f849908b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/3/ПОЛКА1.blend using Guid(5fc3f6bc0f8231740a6e91f849908b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e6fea1c919cb9300c0cc7d45637491') in 0.041790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/models/Подставки/3/ПОЛКА1.fbx
+  artifactKey: Guid(bb8638aeaa33c7840a00fa93585bc38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/3/ПОЛКА1.fbx using Guid(bb8638aeaa33c7840a00fa93585bc38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326df460a83293f0b50eb7f6d77aae82') in 0.050244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.540346 seconds.
+  path: Assets/models/Подставки/4
+  artifactKey: Guid(ca42cf5f98f54d04eb6ebf67bb58d038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/4 using Guid(ca42cf5f98f54d04eb6ebf67bb58d038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163e3d180ed0d3c4a353c09a0f96095c') in 0.008522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084227 seconds.
+  path: Assets/models/Подставки/4/маленкаяполка2.fbx
+  artifactKey: Guid(378fc479e39944d44b406011c1e66789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/4/маленкаяполка2.fbx using Guid(378fc479e39944d44b406011c1e66789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2f0d1908f50064369262d11cbc9473') in 0.075634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.450465 seconds.
+  path: Assets/models/Подставки/5
+  artifactKey: Guid(7707d8b356134514599e27ed99b2d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/5 using Guid(7707d8b356134514599e27ed99b2d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bc46ac3a1827a8521eabd399ffd5da') in 0.008456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069118 seconds.
+  path: Assets/models/Подставки/5/СТЕЛАЖ ВОЛНА.blend
+  artifactKey: Guid(9b01c832098d2c24d84b55a77c9b8ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/5/СТЕЛАЖ ВОЛНА.blend using Guid(9b01c832098d2c24d84b55a77c9b8ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3e381ae9f85d273f96fc2f2bf0049d') in 0.054922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/models/Подставки/5/СТЕЛАЖ ВОЛНА.fbx
+  artifactKey: Guid(a8600326f99f0274e89e762138fa8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Подставки/5/СТЕЛАЖ ВОЛНА.fbx using Guid(a8600326f99f0274e89e762138fa8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076ee033ea6d41db66b64d701984d6ac') in 0.057259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.585490 seconds.
+  path: Assets/models/подставка/Podstavka.mat
+  artifactKey: Guid(8d83e1db5c7986d4eb54e7ed8712cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/подставка/Podstavka.mat using Guid(8d83e1db5c7986d4eb54e7ed8712cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d12c675663bba2fed38e02ac84264bf') in 0.022849 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004455 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sparrow_GeneralMotor\Desktop\SteamVR\Museum\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1179ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 3.383500 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.056000 ms MarkObjects: 3.077300 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2064.362868 seconds.
+  path: Assets/materials/Wall/Wall_mat.mat
+  artifactKey: Guid(513ad0e5397468b498991c28972aab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Wall/Wall_mat.mat using Guid(513ad0e5397468b498991c28972aab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3597c0b2d49eae9318a9862c1ae96ea') in 0.306122 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
