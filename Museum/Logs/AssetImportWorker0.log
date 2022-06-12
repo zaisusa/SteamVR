@@ -1,0 +1,211 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/vinni/Documents/GitHub/SteamVR/Museum
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52461
+Successfully changed project path to: C:/Users/vinni/Documents/GitHub/SteamVR/Museum
+C:/Users/vinni/Documents/GitHub/SteamVR/Museum
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.76 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.36 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vinni/Documents/GitHub/SteamVR/Museum/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   27.21.14.6179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001106 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.08 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (562ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003598 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\vinni\Documents\GitHub\SteamVR\Museum\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\vinni\Documents\GitHub\SteamVR\Museum\Library\PackageCache\com.unity.xr.oculus@1.12.0\Runtime\OculusLoader.cs:251 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\vinni\Documents\GitHub\SteamVR\Museum\Library\PackageCache\com.unity.xr.oculus@1.12.0\Runtime\OculusLoader.cs:236 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <3371b3e2e5754acd87e600e068350da5>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 1920 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2399.
+Total: 2.646900 ms (FindLiveObjects: 0.161900 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.353600 ms  DeleteObjects: 0.060800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_ao.tif
+  artifactKey: Guid(aedd06c0989c9be4f97fb019696b9f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_ao.tif using Guid(aedd06c0989c9be4f97fb019696b9f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f596dc71bdaad60a30a68892040539a') in 0.061061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_roughness.tif
+  artifactKey: Guid(1554d18bfb407de479f134b9d30c5efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_roughness.tif using Guid(1554d18bfb407de479f134b9d30c5efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60c2a99e263fa20b6639603f295c5ce') in 0.023446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/models/Borders/Mat/Border_mat.mat
+  artifactKey: Guid(b49dcbee34374a446904a6a2aeb928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Borders/Mat/Border_mat.mat using Guid(b49dcbee34374a446904a6a2aeb928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3887a46b0c21cd1bc71fd4793d80fa') in 0.082641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_albedo.tif
+  artifactKey: Guid(d452e18732004f444ac301939d58186b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_albedo.tif using Guid(d452e18732004f444ac301939d58186b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a982e0913e9cbc426964bbb5a11ac22') in 0.020584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_height.tif
+  artifactKey: Guid(f97cbb18007ce1341a10b84181a9aa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_height.tif using Guid(f97cbb18007ce1341a10b84181a9aa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f09e61863c9a44bff30f17d5d8f2be9') in 0.024258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_normal.tif
+  artifactKey: Guid(ccfc1ebb734d0634887ab00dbac592b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Borders/Mat/TexturesCom_Wood_PlanksRough1_2x2_1K_normal.tif using Guid(ccfc1ebb734d0634887ab00dbac592b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cd72bac82231414d8b448b71876e73') in 0.029948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/models/Borders/Mat
+  artifactKey: Guid(3d92772426caee643b68dfb097c825d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Borders/Mat using Guid(3d92772426caee643b68dfb097c825d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6a1b1d2dd3799a6c94de23394af5cc') in 0.006131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.578307 seconds.
+  path: Assets/models/Check_this/Walls/Walls.mat
+  artifactKey: Guid(f89366d0443d4954992bd49e349ab418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Check_this/Walls/Walls.mat using Guid(f89366d0443d4954992bd49e349ab418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517335c8934ea2d1309dba95171f941e') in 0.037618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.839107 seconds.
+  path: Assets/models/Light_spots/Light 2
+  artifactKey: Guid(e3c9fe28e49164b4ca1e632d333659b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Light_spots/Light 2 using Guid(e3c9fe28e49164b4ca1e632d333659b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f85e4b95f66ba1503e6fe2b4e52daf7') in 0.006191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.938423 seconds.
+  path: Assets/models/стол/1
+  artifactKey: Guid(17acce1a27ac6224b88faedfb31517c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/стол/1 using Guid(17acce1a27ac6224b88faedfb31517c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed16750a24f636743e25899ffa3dd3a') in 0.007744 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -15,12 +15,12 @@ C:/Users/vinni/Documents/GitHub/SteamVR/Museum
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53882
+61411
 Successfully changed project path to: C:/Users/vinni/Documents/GitHub/SteamVR/Museum
 C:/Users/vinni/Documents/GitHub/SteamVR/Museum
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.60 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.77 ms.
+Refreshing native plugins compatible for Editor in 864.74 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.46 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.33f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/vinni/Documents/GitHub/SteamVR/Museum/Assets
@@ -35,50 +35,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000999 seconds.
+Registered in 0.188304 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.49 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 50.39 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.520 seconds
+- Completed reload, in  4.209 seconds
 Domain Reload Profiling:
-	ReloadAssembly (520ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (4209ms)
+		BeginReloadAssembly (3288ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (406ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (3282ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (157ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003773 seconds.
+Registered in 0.630652 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\vinni\Documents\GitHub\SteamVR\Museum\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -99,29 +99,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.942 seconds
+- Completed reload, in  1.178 seconds
 Domain Reload Profiling:
-	ReloadAssembly (943ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1180ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (757ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (284ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -129,15 +129,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Unloading 1920 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 102.7 MB.
 System memory in use after: 102.8 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2399.
-Total: 2.432900 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.070400 ms MarkObjects: 2.143800 ms  DeleteObjects: 0.054900 ms)
+Total: 5.486500 ms (FindLiveObjects: 0.464100 ms CreateObjectMapping: 0.205700 ms MarkObjects: 4.643800 ms  DeleteObjects: 0.170500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,1261 +151,373 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/фотографии/Первые шаги/сделано/город/16/Scan20220430155257_1.jpeg
-  artifactKey: Guid(b324b803838ed154cbcf04c22cc727a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/город/16/Scan20220430155257_1.jpeg using Guid(b324b803838ed154cbcf04c22cc727a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b948c9c2068a57e993025c503b9a37') in 0.055663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/город/16
-  artifactKey: Guid(28d1113129d5bd84e907a84697743790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/город/16 using Guid(28d1113129d5bd84e907a84697743790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceb49a30ae7041d4614eca07776a53d') in 0.006264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/город/16/IMG_8992.png
-  artifactKey: Guid(d00da94ed32bf2047aa0da47018dd92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/город/16/IMG_8992.png using Guid(d00da94ed32bf2047aa0da47018dd92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0faa034cf4b6d6dfbf5dce100df370a') in 0.015903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.921017 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/город/15
-  artifactKey: Guid(8ed3f7277baf04742bd1b35fe0a5b74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/город/15 using Guid(8ed3f7277baf04742bd1b35fe0a5b74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c08d2b85a2e8f0bd52009fbd0d93bb') in 0.006677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.055629 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/город/13
-  artifactKey: Guid(e0a618a504933764c8460398748b4f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/город/13 using Guid(e0a618a504933764c8460398748b4f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84212fae643d292e9c3210ee161c356') in 0.007463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.955516 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/город/11
-  artifactKey: Guid(2cf8a90ad60d5464db7c2f19b62caf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/город/11 using Guid(2cf8a90ad60d5464db7c2f19b62caf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ca23b6115a817c60c435e91b432f69') in 0.006500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 447.655474 seconds.
-  path: Assets/other/Front/neuropol x rg SDF.asset
-  artifactKey: Guid(a11c5666fea9b5e40a9db4342bf8b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/other/Front/neuropol x rg SDF.asset using Guid(a11c5666fea9b5e40a9db4342bf8b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12850de5cc52b9ce0137ad5c750d1cd8') in 0.136746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 76.348968 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа
-  artifactKey: Guid(355d5d8a805506b4590681d066d09d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа using Guid(355d5d8a805506b4590681d066d09d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b0e09785cc7d3358937babe799431a') in 0.007967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.157358 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/21
-  artifactKey: Guid(1f8465e5ba542fc43ac52a6c988e893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/21 using Guid(1f8465e5ba542fc43ac52a6c988e893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafc4ef7e6f441e0412f52ac436cfc46') in 0.005901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.076508 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/21/IMG_9019.png
-  artifactKey: Guid(40fe617b2c96cfd43ae6ed1fd0c0beb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/21/IMG_9019.png using Guid(40fe617b2c96cfd43ae6ed1fd0c0beb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd68f86bc95ba09b3b31f29abed0a3d1') in 0.018501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.089462 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/20
-  artifactKey: Guid(e93d779f34d8fd244ab64ea5d82e1672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/20 using Guid(e93d779f34d8fd244ab64ea5d82e1672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5b40bb063abac56175cfb24557ce26') in 0.009440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.592528 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/20/IMG_9018.png
-  artifactKey: Guid(ca751f4da76e45e47b9aa989c9b99ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/20/IMG_9018.png using Guid(ca751f4da76e45e47b9aa989c9b99ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35bfe36d23f39970577bc1ecac379c8') in 0.018571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/20/Scan20220430160342_1.jpeg
-  artifactKey: Guid(5cefaf51a400734498a8dedf1ed0d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/20/Scan20220430160342_1.jpeg using Guid(5cefaf51a400734498a8dedf1ed0d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b856c4c718ac4a4c13dd0de35f3554') in 0.028231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.556451 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/19
-  artifactKey: Guid(f9cb569619ceaa440acbe9b9242d8934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/19 using Guid(f9cb569619ceaa440acbe9b9242d8934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0adbc5895183042fccf1d42b665d265') in 0.007522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.261574 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/19/IMG_9017.png
-  artifactKey: Guid(c401a9962bbb41041954014ebb0bb2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/19/IMG_9017.png using Guid(c401a9962bbb41041954014ebb0bb2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a80bfa84aef2ed836bd93447e39a816') in 0.016960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/19/Scan20220430160859_1.jpeg
-  artifactKey: Guid(de49fe84af776594a92eb19a9c401fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/19/Scan20220430160859_1.jpeg using Guid(de49fe84af776594a92eb19a9c401fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559c8e19bae219d0584896ace8c157f2') in 0.015510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.481587 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/18
-  artifactKey: Guid(7959e9c7a9e6e9242bcd99248f4551a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/18 using Guid(7959e9c7a9e6e9242bcd99248f4551a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99529d816929c19aa70ac6a3a042272f') in 0.006927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.038084 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/18/Scan20220430160939_1.jpeg
-  artifactKey: Guid(25485979a441143409f752281b7295a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/18/Scan20220430160939_1.jpeg using Guid(25485979a441143409f752281b7295a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68629afb6fc65e55f53fde8c25aca84e') in 0.021422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.873129 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/17
-  artifactKey: Guid(35eac43c3ba78fb458dafbf4dd904752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/17 using Guid(35eac43c3ba78fb458dafbf4dd904752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ed4c87f837e997a7f0031ad688dfd7') in 0.007903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.112961 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/17/IMG_9015.png
-  artifactKey: Guid(d3d706252e078664fa15498f436c06b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/17/IMG_9015.png using Guid(d3d706252e078664fa15498f436c06b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea91216a52f39fa95c08c5f296f6c38') in 0.017101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/17/Scan20220430160520_1.jpeg
-  artifactKey: Guid(ab5027b4d2f2db14286a92c6943cebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/17/Scan20220430160520_1.jpeg using Guid(ab5027b4d2f2db14286a92c6943cebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df33d1a85a9c9d4a4ecbe36ea421923') in 0.013665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.266084 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/16
-  artifactKey: Guid(3efad859e840893438a3d2ab4685587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/16 using Guid(3efad859e840893438a3d2ab4685587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c0fe6ac7798a405b1ae0e55a029a3f') in 0.003037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050263 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/16/IMG_9014.png
-  artifactKey: Guid(6257a4fa18fced1419e6d1216af7468c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/16/IMG_9014.png using Guid(6257a4fa18fced1419e6d1216af7468c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd290cf4fcc406f24fc1891a3d00a2ff') in 0.016454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/16/Scan20220430160405_1.jpeg
-  artifactKey: Guid(4f7bc1f8fec6cef48ae339107dfb5f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/16/Scan20220430160405_1.jpeg using Guid(4f7bc1f8fec6cef48ae339107dfb5f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230798ea95611754979e83a7aee3a513') in 0.019019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.288176 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/2
-  artifactKey: Guid(9569299159fed2d40b10e1668c41b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/2 using Guid(9569299159fed2d40b10e1668c41b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b48992a3c1d28583fc38f0697cd960') in 0.008332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034757 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/2/IMG_8998.png
-  artifactKey: Guid(6e25e9f2f4e106c48ae35c53ac377b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/2/IMG_8998.png using Guid(6e25e9f2f4e106c48ae35c53ac377b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f540938f199b307cb9996ea084c91c') in 0.020088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/2/Scan20220430160755_1.jpeg
-  artifactKey: Guid(06e6170bb0d353d4285e8b207a39237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/2/Scan20220430160755_1.jpeg using Guid(06e6170bb0d353d4285e8b207a39237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21fcec97ed72eafd0847466d2ebe347') in 0.025028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.856559 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/12
-  artifactKey: Guid(61b430e2f1bf39c49a59464f3a817263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/12 using Guid(61b430e2f1bf39c49a59464f3a817263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93942ca06f0e0e64c6f98b04a3e60b82') in 0.007571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.823189 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/3
-  artifactKey: Guid(81c9b656884cd4748a660b1655755bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/3 using Guid(81c9b656884cd4748a660b1655755bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963d8bc8ec04bd3b0ca61b7f595e4276') in 0.006046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046999 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/3/IMG_8999.png
-  artifactKey: Guid(672f56311ce511f40b3130ed8accc2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/3/IMG_8999.png using Guid(672f56311ce511f40b3130ed8accc2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4c30eff0e010459a50c51bff8f941d') in 0.016292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/3/Scan20220430160005_1.jpeg
-  artifactKey: Guid(e292abe570162ee44b6aa2e01b799d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/3/Scan20220430160005_1.jpeg using Guid(e292abe570162ee44b6aa2e01b799d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309ef5032d1a87c1983ba99299e42197') in 0.019573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.922823 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/4
-  artifactKey: Guid(295205b763486c14fa7215b53eb09675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/4 using Guid(295205b763486c14fa7215b53eb09675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9331125eddf79dc84fa09a8c2e872bd') in 0.006389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.695293 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/4/IMG_9001.png
-  artifactKey: Guid(7d6d94f6925f9ef489cade38532051cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/4/IMG_9001.png using Guid(7d6d94f6925f9ef489cade38532051cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1accb81ae7b4f3f7945e0f2c964a897') in 0.018789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.889698 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/5
-  artifactKey: Guid(18d785f4fa8313545ae9bc7655995e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/5 using Guid(18d785f4fa8313545ae9bc7655995e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534125a358f2ce4ccd2002a7d3ce0aca') in 0.006273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047226 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/5/IMG_9003.png
-  artifactKey: Guid(532b31d47871a4b4e8e9f2b490eccb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/5/IMG_9003.png using Guid(532b31d47871a4b4e8e9f2b490eccb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e694a2ebb3095a91de9fa2c50ff470ff') in 0.019016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/5/Scan20220430155822_1.jpeg
-  artifactKey: Guid(f587b9ef81341d642817c09ecb55d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/5/Scan20220430155822_1.jpeg using Guid(f587b9ef81341d642817c09ecb55d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf5290e86fb3c4f52ac6f08a0e7c1b3') in 0.025846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 146.219993 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/6
-  artifactKey: Guid(5a06389cb2fcc054987d7183d238cead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/6 using Guid(5a06389cb2fcc054987d7183d238cead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a85427425d7e14f7a7d2d888c8063c') in 0.007588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046990 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/6/IMG_9004.png
-  artifactKey: Guid(73cf704e76ed73240933c834c2ed051d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/6/IMG_9004.png using Guid(73cf704e76ed73240933c834c2ed051d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ecaf45e8ee010feb4f80a61b52fbdf') in 0.017428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.383698 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/6/Новый документ.docx
-  artifactKey: Guid(14f5503034a171343a1df12140ee67b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/6/Новый документ.docx using Guid(14f5503034a171343a1df12140ee67b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2bd82b15e4233cf65c54a4edb8f3a4') in 0.010140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 115.220343 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/7
-  artifactKey: Guid(ab5ea2b3022acf64bb46c8167769cd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/7 using Guid(ab5ea2b3022acf64bb46c8167769cd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ddfd4fe7a68dad3e01735111c06be8') in 0.005899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034702 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/7/IMG_9005.png
-  artifactKey: Guid(b597572f89702d34fbe12f43147cefbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/7/IMG_9005.png using Guid(b597572f89702d34fbe12f43147cefbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bdb0ac196ef05ff88c26bc3fc23935') in 0.019782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/7/Scan20220430160151_1.jpeg
-  artifactKey: Guid(42c5e55020977654e9ef64634a5b1ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/7/Scan20220430160151_1.jpeg using Guid(42c5e55020977654e9ef64634a5b1ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1817dac43b197c3326f4fb3fa301df5') in 0.024767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.822726 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/8
-  artifactKey: Guid(f5b0fb826cb391245924d173641cdc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/8 using Guid(f5b0fb826cb391245924d173641cdc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ec5201159bc61cda8842f27a598c32') in 0.009252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.045139 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/8/IMG_9006.png
-  artifactKey: Guid(cf4de65e0173ddd43b283962e10c240e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/8/IMG_9006.png using Guid(cf4de65e0173ddd43b283962e10c240e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afb11a7446565d582aae51b3235374f') in 0.018257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.288139 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/8/Новый документ.docx
-  artifactKey: Guid(36889f209a1eaf644bb376f5d0efecc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/8/Новый документ.docx using Guid(36889f209a1eaf644bb376f5d0efecc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5244e32ee57ce853f622b296031d1b60') in 0.002563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.949797 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/9
-  artifactKey: Guid(e0721c06568aa4e47a436ccf787980ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/9 using Guid(e0721c06568aa4e47a436ccf787980ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960105263c741839e69767c560279698') in 0.007188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042681 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/9/Scan20220430160824_1.jpeg
-  artifactKey: Guid(8f9967be238cf9348a09a588679ccfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/9/Scan20220430160824_1.jpeg using Guid(8f9967be238cf9348a09a588679ccfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979b4b424b07cf0292943645d1775306') in 0.019561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.602741 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/10
-  artifactKey: Guid(1455c10b819c1c148a4c3bb950860d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/10 using Guid(1455c10b819c1c148a4c3bb950860d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82746e6884695d418c71d008841e2126') in 0.005598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.054075 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/10/IMG_9008.png
-  artifactKey: Guid(0e849f0423ba6994fab857d18c128e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/10/IMG_9008.png using Guid(0e849f0423ba6994fab857d18c128e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac7103b3d6a482a9ca7db926a5480dc') in 0.019214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/10/Scan20220430160124_1.jpeg
-  artifactKey: Guid(387574d6dc239be41949e772acbd5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/10/Scan20220430160124_1.jpeg using Guid(387574d6dc239be41949e772acbd5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cf79efa2ee6dda5c67a29a175638f8') in 0.022517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.967123 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/11
-  artifactKey: Guid(a91186089d7456640b43dfe8227be2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/11 using Guid(a91186089d7456640b43dfe8227be2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c0e2adda5d4033d2b8ab2744ba18d3') in 0.005438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.036328 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/11/IMG_9009.png
-  artifactKey: Guid(ad0882c9dc9f3fe4993aea046bf4aef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/11/IMG_9009.png using Guid(ad0882c9dc9f3fe4993aea046bf4aef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204b13354a591561c029cc5082336732') in 0.018447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/11/Scan20220430160312_1.jpeg
-  artifactKey: Guid(233c074d186072c4f8fcfb8f46cb7eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/11/Scan20220430160312_1.jpeg using Guid(233c074d186072c4f8fcfb8f46cb7eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c224e09c40472d66da99915f9cc3069f') in 0.019588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.211136 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/12/Scan20220430160548_1.jpeg
-  artifactKey: Guid(4a4b409122ca4684abe02803ce2d9bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/12/Scan20220430160548_1.jpeg using Guid(4a4b409122ca4684abe02803ce2d9bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e490f0bed884259e9da66c136f20bb08') in 0.023776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.405173 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/14
-  artifactKey: Guid(7f22e57b0589ac045a7604d59e1910a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/14 using Guid(7f22e57b0589ac045a7604d59e1910a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a3dbfe92b168c378d9d1864681e462') in 0.009159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.033311 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/14/IMG_9012.png
-  artifactKey: Guid(3ab3b373546070143a04649601ebea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/14/IMG_9012.png using Guid(3ab3b373546070143a04649601ebea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69d793754a16670a51def02c6827bee') in 0.021520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/14/Scan20220430160250_1.jpeg
-  artifactKey: Guid(1caf30b7b2cac844d8c8dc8fabe914f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/14/Scan20220430160250_1.jpeg using Guid(1caf30b7b2cac844d8c8dc8fabe914f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575088a9853280675d8efb1c44ba7f6d') in 0.023036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.108536 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/15
-  artifactKey: Guid(8cf35cbb3ab8afb4c8ddad150d72b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/15 using Guid(8cf35cbb3ab8afb4c8ddad150d72b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c22f7f2c0ac9c4c1cd14223470f3ae6') in 0.006460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040805 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/15/IMG_9013.png
-  artifactKey: Guid(0904ac89a300d284dae9788f81a46cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/15/IMG_9013.png using Guid(0904ac89a300d284dae9788f81a46cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6ec1fb46951186efb9f446026c721b') in 0.019769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/школа/15/Scan20220430160228_1.jpeg
-  artifactKey: Guid(f9dd8346a6280a841aea94f8e162b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/школа/15/Scan20220430160228_1.jpeg using Guid(f9dd8346a6280a841aea94f8e162b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99587386bee8b6b90879ad53270354f0') in 0.020335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1092.981223 seconds.
-  path: Assets/фотографии/Первые шаги/сделано/город/10/Документ Microsoft Word.docx
-  artifactKey: Guid(e6d88cd47a83dd0468867c346ae405e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Первые шаги/сделано/город/10/Документ Microsoft Word.docx using Guid(e6d88cd47a83dd0468867c346ae405e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4c3bbbd831b29eceabe36cc4083e5d') in 0.011065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 462.397997 seconds.
-  path: Assets/фотографии/Школьные проекты/Логотипы
-  artifactKey: Guid(6828a8d975235a3498786e496e18d776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Логотипы using Guid(6828a8d975235a3498786e496e18d776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfd5fa8966cd7d6e3872117e4da4cbf') in 0.006035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.373398 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус
-  artifactKey: Guid(bef22b5631a6e2047b5d6b6a36bfe1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус using Guid(bef22b5631a6e2047b5d6b6a36bfe1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a08a19dc2eb5f716292442cba907adf') in 0.006576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.092067 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_4120.JPG
-  artifactKey: Guid(1a55f1e89eda3ec4692197ed1bb20f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_4120.JPG using Guid(1a55f1e89eda3ec4692197ed1bb20f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c97a26a3da49f3e9b8c87fa784d199') in 0.022792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_7915.JPG
-  artifactKey: Guid(2a4c5184b1f34bf44894c249143bcff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_7915.JPG using Guid(2a4c5184b1f34bf44894c249143bcff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bea2d5061c1862c36f04f11f6fd4fdb') in 0.024895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_4121.JPG
-  artifactKey: Guid(f1b3436e3e3bba940acebd2ff2a6ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_4121.JPG using Guid(f1b3436e3e3bba940acebd2ff2a6ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f429b9ab078c830e67b9022fed61144e') in 0.020188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_6311.JPG
-  artifactKey: Guid(a29ff210e38de5443a4ca3c3ecbff7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_6311.JPG using Guid(a29ff210e38de5443a4ca3c3ecbff7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750e10d86327d904221d2e59e26efb0f') in 0.026329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_4126.JPG
-  artifactKey: Guid(d760a0be58043f7429b17d93b7f4a587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_4126.JPG using Guid(d760a0be58043f7429b17d93b7f4a587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e8d4bf8f607052b2b8d087e5e11788') in 0.022589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.531679 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот
-  artifactKey: Guid(ac305ee772c8c9f4eb3cd84c4addfe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот using Guid(ac305ee772c8c9f4eb3cd84c4addfe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be3938f3252995dcad3608d86a81aea') in 0.009756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043098 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/dm5.jpg
-  artifactKey: Guid(d364fb8c955a1c64c8c6427dd7b306b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/dm5.jpg using Guid(d364fb8c955a1c64c8c6427dd7b306b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55cf5054c2b6badb28d7460301bcbf4') in 0.023753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/dm6.jpg
-  artifactKey: Guid(66ff3a9cea7aba84295a9ae228d7eefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/dm6.jpg using Guid(66ff3a9cea7aba84295a9ae228d7eefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3966f69801e280e0596ab63336b81eff') in 0.023315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/IMG_0190-1-.jpg
-  artifactKey: Guid(3a14e44768bc5ba4491c92b4881a025e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/IMG_0190-1-.jpg using Guid(3a14e44768bc5ba4491c92b4881a025e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764a48229c438a5b8ba712ecd633de5c') in 0.023908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/patrio1.jpg
-  artifactKey: Guid(f9d79fc7df9643d43ad65ca74152b3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/patrio1.jpg using Guid(f9d79fc7df9643d43ad65ca74152b3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca7213333c66c91c12ed3877b91ad51') in 0.022613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/IMG_0053.jpg
-  artifactKey: Guid(23a3c44a8264b9c4a80d793adfc5c767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/IMG_0053.jpg using Guid(23a3c44a8264b9c4a80d793adfc5c767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0901f1b58c0272b4ffd135d5a681e9e') in 0.020660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000794 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/IMG_0163.jpg
-  artifactKey: Guid(d1b5f233aa0949e4aa2e0de31e53b80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/IMG_0163.jpg using Guid(d1b5f233aa0949e4aa2e0de31e53b80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40e8295df2f8be86422191646f0ec28') in 0.024928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/спартакиада.jpg
-  artifactKey: Guid(5bbd638cc2eeb984eb60ec7eee9920ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/спартакиада.jpg using Guid(5bbd638cc2eeb984eb60ec7eee9920ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b51cb30cfdb9236fd5c758ac632a5c') in 0.023548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000688 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/patrio2.jpg
-  artifactKey: Guid(dbf56b5a7643fae499c3b5c65d4c07c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/patrio2.jpg using Guid(dbf56b5a7643fae499c3b5c65d4c07c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f895862635ca720373d8d7484f77c03') in 0.020753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/IMG_0020.jpg
-  artifactKey: Guid(ffdd4f6582589e048a312b60e6910e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/IMG_0020.jpg using Guid(ffdd4f6582589e048a312b60e6910e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31a323ab54e5457ce55cb2aa123a468') in 0.019618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.310230 seconds.
-  path: Assets/фотографии/Школьные проекты/Спэрроус
-  artifactKey: Guid(e88a81ef772548848952def8f5d47aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Спэрроус using Guid(e88a81ef772548848952def8f5d47aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28a50e63cf212f3912ccc8dd379f842') in 0.005581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 265.594398 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_4120.JPG
-  artifactKey: Guid(1a55f1e89eda3ec4692197ed1bb20f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_4120.JPG using Guid(1a55f1e89eda3ec4692197ed1bb20f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99641d6d581a11c24d3f107d2e736042') in 0.019255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000693 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_7915.JPG
-  artifactKey: Guid(2a4c5184b1f34bf44894c249143bcff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_7915.JPG using Guid(2a4c5184b1f34bf44894c249143bcff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4104921dc1b44c8473abb70556d50b9') in 0.019248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000717 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_4121.JPG
-  artifactKey: Guid(f1b3436e3e3bba940acebd2ff2a6ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_4121.JPG using Guid(f1b3436e3e3bba940acebd2ff2a6ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081538440d8943425cf1ba854c4d37c6') in 0.013936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000889 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_6311.JPG
-  artifactKey: Guid(a29ff210e38de5443a4ca3c3ecbff7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_6311.JPG using Guid(a29ff210e38de5443a4ca3c3ecbff7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ead2e418e3c4bc924565680efbae0c') in 0.025188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_7954.JPG
-  artifactKey: Guid(c9c69c4612bffab49a71c58d72f6e51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_7954.JPG using Guid(c9c69c4612bffab49a71c58d72f6e51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a4fcd64f50c2a67d37cdbd5b25e6a4') in 0.028257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_7947.JPG
-  artifactKey: Guid(a3dcf0a3bf6fb89439ff8b19bae3ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_7947.JPG using Guid(a3dcf0a3bf6fb89439ff8b19bae3ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1af3459cecbf9f111d5df377b51763') in 0.027118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000636 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_7909.JPG
-  artifactKey: Guid(4da544369443e6345ab45c16396c4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_7909.JPG using Guid(4da544369443e6345ab45c16396c4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9553ab16f2bb0222668f0eaeb35c549') in 0.026364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_5602.JPG
-  artifactKey: Guid(4cfc5739720ce1049b093d3175c8ba5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_5602.JPG using Guid(4cfc5739720ce1049b093d3175c8ba5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a8676082390634ad725453ad8b39e5') in 0.022151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_7924.JPG
-  artifactKey: Guid(a5176a0eab653574182def09b5c5fc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_7924.JPG using Guid(a5176a0eab653574182def09b5c5fc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1d6b0516b52eecea49f986d55ed26d') in 0.020825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/фотографии/Школьные проекты/Октопус/IMG_4126.JPG
-  artifactKey: Guid(d760a0be58043f7429b17d93b7f4a587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Октопус/IMG_4126.JPG using Guid(d760a0be58043f7429b17d93b7f4a587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb10cca73e0eee95e5111d1b333e8bf7') in 0.015774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.701709 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/dm1.jpg
-  artifactKey: Guid(1a2f61ee65b260148bc53c3410b6db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/dm1.jpg using Guid(1a2f61ee65b260148bc53c3410b6db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca06bfccc09ed54bb5f1b74e0e80800a') in 0.005910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.689282 seconds.
-  path: Assets/фотографии/Школьные проекты/Патриот/dm1.jpg
-  artifactKey: Guid(1a2f61ee65b260148bc53c3410b6db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Патриот/dm1.jpg using Guid(1a2f61ee65b260148bc53c3410b6db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8314c4e4bc293477f4c623fc1a0fadd4') in 0.002778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1345.587633 seconds.
-  path: Assets/other/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/other/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c841bb2cf68c0dc63a2d257f2fd5ffc') in 0.049186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/other/Front/neuropol x rg SDF.asset
-  artifactKey: Guid(a11c5666fea9b5e40a9db4342bf8b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/other/Front/neuropol x rg SDF.asset using Guid(a11c5666fea9b5e40a9db4342bf8b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a641071b18b99a6457af362dc10e1b') in 0.047057 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006821 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\vinni\Documents\GitHub\SteamVR\Museum\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\vinni\Documents\GitHub\SteamVR\Museum\Library\PackageCache\com.unity.xr.oculus@1.12.0\Runtime\OculusLoader.cs:251 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\vinni\Documents\GitHub\SteamVR\Museum\Library\PackageCache\com.unity.xr.oculus@1.12.0\Runtime\OculusLoader.cs:236 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <3371b3e2e5754acd87e600e068350da5>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1281ms)
-		BeginReloadAssembly (237ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (104ms)
-		EndReloadAssembly (972ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (350ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (352ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.0 MB.
-System memory in use after: 103.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2451.
-Total: 3.491100 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.123100 ms MarkObjects: 3.049900 ms  DeleteObjects: 0.034700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 618.968193 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера
-  artifactKey: Guid(ced579826dfa11f4087167a26158b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера using Guid(ced579826dfa11f4087167a26158b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5344967892a70b820904b1333802292d') in 0.011870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.141744 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/9YMSrD86cf4uT-fbLIZhHhWtUbxti6DNmWwIL7YSIJHuUnI5DXBsa3PP6l3TNc2C2ia5z7P9ECFSSSKimAXrt2OP.jpg
-  artifactKey: Guid(99fac7650081b314ca1e800887fed3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/9YMSrD86cf4uT-fbLIZhHhWtUbxti6DNmWwIL7YSIJHuUnI5DXBsa3PP6l3TNc2C2ia5z7P9ECFSSSKimAXrt2OP.jpg using Guid(99fac7650081b314ca1e800887fed3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6e76f28cdfca39f9a8824501feb318') in 0.081419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/IQNdZ6qYmPFjuPOKRxvjuGrsDaz-_7mBuQ4Mt3LIOumKhraXc_lYI_e0r4hZDpZ_3PRQ-yG3C-7gVnOMH_quEqNO.jpg
-  artifactKey: Guid(7a78583e591201a488083f0655e3c2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/IQNdZ6qYmPFjuPOKRxvjuGrsDaz-_7mBuQ4Mt3LIOumKhraXc_lYI_e0r4hZDpZ_3PRQ-yG3C-7gVnOMH_quEqNO.jpg using Guid(7a78583e591201a488083f0655e3c2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce1666d3bd223505fa8ff9a20901189') in 0.018326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03129.JPG
-  artifactKey: Guid(5367804eab20c0641b0d4bda34a1177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03129.JPG using Guid(5367804eab20c0641b0d4bda34a1177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971b0c2c81ae4a1b999a5e726a10b312') in 0.023481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/n7l9BHVqnOXwjAbVpXt6SuAUS5f56KKRj6IQESuYSSlivq87_AChdzWCG0cc0NS0ZRxFXjkeQ9fkXDwFfnswkp2S.jpg
-  artifactKey: Guid(26b1231dbe229c74a9cb7ef1299aefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/n7l9BHVqnOXwjAbVpXt6SuAUS5f56KKRj6IQESuYSSlivq87_AChdzWCG0cc0NS0ZRxFXjkeQ9fkXDwFfnswkp2S.jpg using Guid(26b1231dbe229c74a9cb7ef1299aefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e745a0710405686468069ecb976fd633') in 0.022824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03198.JPG
-  artifactKey: Guid(14d90f22a2d19ea42bd09fbee292917c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03198.JPG using Guid(14d90f22a2d19ea42bd09fbee292917c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7a3998234967399f22b315a4eaec48') in 0.021779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/niVrJ4e2GSsK0hI15MU1EOhbDm6Ks50BN9bmtpjiMNzrzW9GsBanh7SGdoqkO5kmHG-AYw2nIBUXOhRSBNNfZz9m.jpg
-  artifactKey: Guid(88014ff92c265c24283201fad34f0a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/niVrJ4e2GSsK0hI15MU1EOhbDm6Ks50BN9bmtpjiMNzrzW9GsBanh7SGdoqkO5kmHG-AYw2nIBUXOhRSBNNfZz9m.jpg using Guid(88014ff92c265c24283201fad34f0a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640c106a375d11b2d9be0a1277dd2a2f') in 0.021775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03200.JPG
-  artifactKey: Guid(8b2c93543b24dd140820e95bd92a7a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03200.JPG using Guid(8b2c93543b24dd140820e95bd92a7a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0243ab4d7d1365576e5c435c0608c92') in 0.018395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/P1EEdVokwHSguAz1X4O3fad6Qx4xFenCuOSe53TGjng87CnlnfkjDO7H6ubhcjPE5jvw1sKgDGYlxAtj85hxplSi.jpg
-  artifactKey: Guid(0e9b7428a61e65447801f44deddb3d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/P1EEdVokwHSguAz1X4O3fad6Qx4xFenCuOSe53TGjng87CnlnfkjDO7H6ubhcjPE5jvw1sKgDGYlxAtj85hxplSi.jpg using Guid(0e9b7428a61e65447801f44deddb3d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a312378204233605171a132afe0a73') in 0.018401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/lfi8p5AzLkqhAuBfDNVnaB4cGeRQnZMIP0IEuAa7Pel-mhYuQS_r5MPHqks2X5C0ZPC2xf-Ora8y48v3U595mVXY.jpg
-  artifactKey: Guid(f383eb4affbf4b54fb64f1d965003439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/lfi8p5AzLkqhAuBfDNVnaB4cGeRQnZMIP0IEuAa7Pel-mhYuQS_r5MPHqks2X5C0ZPC2xf-Ora8y48v3U595mVXY.jpg using Guid(f383eb4affbf4b54fb64f1d965003439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b524cfee7e11b5c34dfc817c2fb7ceb0') in 0.020353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03110.JPG
-  artifactKey: Guid(aa52f3c6c501eba47abe2cac4523b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03110.JPG using Guid(aa52f3c6c501eba47abe2cac4523b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5f887c2c8f2125dcd3c54d7b739bdb') in 0.020716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/qf5ta9v15PxJnevupcOTtZInstcS1oBi9rw3y1Gse_aSS37oglE998sn15_HRJ05-m239kC-QhA4s0GJspmF6nx5.jpg
-  artifactKey: Guid(7c50280f9d63a8c46a1d2cf0bc19189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/qf5ta9v15PxJnevupcOTtZInstcS1oBi9rw3y1Gse_aSS37oglE998sn15_HRJ05-m239kC-QhA4s0GJspmF6nx5.jpg using Guid(7c50280f9d63a8c46a1d2cf0bc19189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455e0cd330811580543db74c61e92cb1') in 0.019929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/FxanJT7Vh96LdY6OodLzT85pjyttrFuZV1Zbs6ZmeVay4KXyE1MZpZ1WmBTZwLoiE-tgqym2QNptXrXSCy66FeL1.jpg
-  artifactKey: Guid(de8001834b427fd419ce0cebe31715ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/FxanJT7Vh96LdY6OodLzT85pjyttrFuZV1Zbs6ZmeVay4KXyE1MZpZ1WmBTZwLoiE-tgqym2QNptXrXSCy66FeL1.jpg using Guid(de8001834b427fd419ce0cebe31715ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f888648786d79399efa6b8c1eaf5b8e') in 0.019671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001010 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03190.JPG
-  artifactKey: Guid(c17db1448267e1344b82596d7496f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03190.JPG using Guid(c17db1448267e1344b82596d7496f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e2a1fc5578499bea2047cd1e64f096') in 0.021234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03202.JPG
-  artifactKey: Guid(921384d9af8e0b1498bfba06f42c3963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03202.JPG using Guid(921384d9af8e0b1498bfba06f42c3963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cced93e3dcee37e385caa34c8c6eb05e') in 0.024963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/ШнейдерМихаил Михайлович_педагог д.о.1кат. рук-ль музык.студии.jpg
-  artifactKey: Guid(1667fc05dc8dbc64ba2ddd72498b1398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/ШнейдерМихаил Михайлович_педагог д.о.1кат. рук-ль музык.студии.jpg using Guid(1667fc05dc8dbc64ba2ddd72498b1398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2a136be9825db0e171099ee33e0602') in 0.020627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/kDINRPw3OJ6HLrKFSz_nVsWfkrmMKAHsuHAlZx9rt9GjNh_dsUEDIwMjv6UpdCsFvx_FtDYExYVxpzKglEI0tK1Y.jpg
-  artifactKey: Guid(fd4ad9ab32d88324e80ef638c7646a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/kDINRPw3OJ6HLrKFSz_nVsWfkrmMKAHsuHAlZx9rt9GjNh_dsUEDIwMjv6UpdCsFvx_FtDYExYVxpzKglEI0tK1Y.jpg using Guid(fd4ad9ab32d88324e80ef638c7646a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724f6038e3d4fb9c583ea0d655785db3') in 0.020248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000876 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03176.JPG
-  artifactKey: Guid(85fb84f4a3fae0d48a73c75510b5eba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03176.JPG using Guid(85fb84f4a3fae0d48a73c75510b5eba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1348de848c6ab087ffe22b0107585d9') in 0.021118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03193.JPG
-  artifactKey: Guid(ae215b33f2c6e4844a0655a06b26fb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/DSC03193.JPG using Guid(ae215b33f2c6e4844a0655a06b26fb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f529ddaac2f7ffc1ef642b8beb607b27') in 0.021036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/HEpVVYzL5yNGeQLDLgq2OYSh3OnzlODP4krTCLl1JacjY8Efhpa9idiPo8ddibu-yeU9F5XGpgUkK6KF7bQZ_pZa.jpg
-  artifactKey: Guid(792a5a35f2470f4419d96b6c1f93b27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьные проекты/Музыкальная Студия Шнейдера/HEpVVYzL5yNGeQLDLgq2OYSh3OnzlODP4krTCLl1JacjY8Efhpa9idiPo8ddibu-yeU9F5XGpgUkK6KF7bQZ_pZa.jpg using Guid(792a5a35f2470f4419d96b6c1f93b27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5705a2cf75a5dee8cc0b32138d820c71') in 0.019903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 758.761862 seconds.
-  path: Assets/models/Borders/GameObject.prefab
-  artifactKey: Guid(cdeb5a0968a459d42a7aecd09f4fe84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Borders/GameObject.prefab using Guid(cdeb5a0968a459d42a7aecd09f4fe84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6021e220e108013b3526fc8ed81b13a6') in 0.115734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 751.520235 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут
-  artifactKey: Guid(b29eac5f2e3e17c468f17ac3813a2587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут using Guid(b29eac5f2e3e17c468f17ac3813a2587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b45cf24a7b01c4c283c932578a7b1b') in 0.008635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058840 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228016.jpg
-  artifactKey: Guid(9b5759e9af7c3ab40841ee9af460d8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228016.jpg using Guid(9b5759e9af7c3ab40841ee9af460d8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af50d13f8301872b981bcf077f099be7') in 0.026756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228027.jpg
-  artifactKey: Guid(1f253a0861d01524bb86fad0efabd2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228027.jpg using Guid(1f253a0861d01524bb86fad0efabd2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eebc84c32392ef23a170d1248a1b35') in 0.026885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014220.jpg
-  artifactKey: Guid(c2095e77e7b42de4eaaee681290881d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014220.jpg using Guid(c2095e77e7b42de4eaaee681290881d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96da0435e42fc262e0a319a853866475') in 0.029089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228030.jpg
-  artifactKey: Guid(796a5cdaf64121b4698802778b437a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228030.jpg using Guid(796a5cdaf64121b4698802778b437a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e46bcf5d6eaa40c35116a2585b9273') in 0.029247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014209.jpg
-  artifactKey: Guid(4f0461431c501484cb9b3c47edfa85aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014209.jpg using Guid(4f0461431c501484cb9b3c47edfa85aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7368be679f8bec84344552975a825b9f') in 0.027707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014212.jpg
-  artifactKey: Guid(dc6543b01044d3940a46a5dadb72e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014212.jpg using Guid(dc6543b01044d3940a46a5dadb72e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acddb36bc64e1614f874f8686805f62') in 0.027924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014219.jpg
-  artifactKey: Guid(610d18b8e60c73b40bfaaf9ccdf5015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014219.jpg using Guid(610d18b8e60c73b40bfaaf9ccdf5015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591967c6b0a0a12cfe62cacb984e9bfb') in 0.027777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228032.jpg
-  artifactKey: Guid(3e3cbb2c88dc9e148bbde86d1a247d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228032.jpg using Guid(3e3cbb2c88dc9e148bbde86d1a247d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b167e492943167bed28ddee66b852c7') in 0.031038 seconds 
+  path: Assets/Real Stars Skybox/StarSkybox04/StarSkybox042.png
+  artifactKey: Guid(31ec1046449e0724ab9f74f07c8d0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real Stars Skybox/StarSkybox04/StarSkybox042.png using Guid(31ec1046449e0724ab9f74f07c8d0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69242f37fde59805a41eddcac965205d') in 0.129221 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000437 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228040.jpg
-  artifactKey: Guid(03a6d740d7e280747829dccb9a4efbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305575046825228040.jpg using Guid(03a6d740d7e280747829dccb9a4efbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40ac3ea9ab63fcfd0caa5d76ca13012') in 0.026711 seconds 
+  path: Assets/Real Stars Skybox/StarSkybox04/StarSkybox045.png
+  artifactKey: Guid(bc8f9c3d8de49024bab7c4052cbd81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real Stars Skybox/StarSkybox04/StarSkybox045.png using Guid(bc8f9c3d8de49024bab7c4052cbd81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1899016bfd8e7b24b3bce377cb2e64d3') in 0.021897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014217.jpg
-  artifactKey: Guid(9885828fa5ad41c4aa2e17c825b93774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Беркут/photo5305585187243014217.jpg using Guid(9885828fa5ad41c4aa2e17c825b93774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8908113b629ba08256eacb082bcb57ca') in 0.026753 seconds 
+  Time since last request: 0.000188 seconds.
+  path: Assets/Real Stars Skybox/StarSkybox04/StarSkybox043.png
+  artifactKey: Guid(ea43e4f309217a34b8d06ce34f5da50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real Stars Skybox/StarSkybox04/StarSkybox043.png using Guid(ea43e4f309217a34b8d06ce34f5da50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b28d129b7d85dca14aef65dff55e6d') in 0.018792 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.542846 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_
-  artifactKey: Guid(2724264dc6ca6a6448eef8bb02dd6211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_ using Guid(2724264dc6ca6a6448eef8bb02dd6211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0778365eac376ae2a4372c27b6d8010c') in 0.009728 seconds 
+  Time since last request: 0.000150 seconds.
+  path: Assets/Real Stars Skybox/StarSkybox04/StarSkybox044.png
+  artifactKey: Guid(d4d865ffc05192e4d8a5e8a52a02eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real Stars Skybox/StarSkybox04/StarSkybox044.png using Guid(d4d865ffc05192e4d8a5e8a52a02eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7349caf83894171fecfa563909892871') in 0.012201 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.041097 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7896.JPG
-  artifactKey: Guid(bd00b161c05406e4182a8aa632cbec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7896.JPG using Guid(bd00b161c05406e4182a8aa632cbec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9577e603f80ee64e4e16ab75415702e1') in 0.028632 seconds 
+  Time since last request: 0.000143 seconds.
+  path: Assets/Real Stars Skybox/StarSkybox04/StarSkybox046.png
+  artifactKey: Guid(16ae4d25f079e384dacef7c5eb98a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real Stars Skybox/StarSkybox04/StarSkybox046.png using Guid(16ae4d25f079e384dacef7c5eb98a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1275038c4245808b2ab828f43b0004') in 0.020325 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7904.JPG
-  artifactKey: Guid(9b7e915d4b60d5640ba920815eb37fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7904.JPG using Guid(9b7e915d4b60d5640ba920815eb37fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f8fdb988b87c385c12c27d25d81d2a') in 0.027303 seconds 
+  Time since last request: 0.000261 seconds.
+  path: Assets/Real Stars Skybox/StarSkybox04/StarSkybox04.mat
+  artifactKey: Guid(2d056ac30ecc9e542b26e06133f23602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real Stars Skybox/StarSkybox04/StarSkybox04.mat using Guid(2d056ac30ecc9e542b26e06133f23602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c132af0c5352ba4faa6ada944c6704ab') in 0.135930 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7900.JPG
-  artifactKey: Guid(25e587c6bfb99bb46ab8a0aae48e282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7900.JPG using Guid(25e587c6bfb99bb46ab8a0aae48e282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1387766e7563b31a9434f9ca7086a568') in 0.029215 seconds 
+  Time since last request: 0.000163 seconds.
+  path: Assets/Real Stars Skybox/StarSkybox04/StarSkybox041.png
+  artifactKey: Guid(fcd92899f9fb6a0468bcb56a38dd4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real Stars Skybox/StarSkybox04/StarSkybox041.png using Guid(fcd92899f9fb6a0468bcb56a38dd4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c291baadfc09e1a4ac8399d11dbebc76') in 0.015514 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7901.JPG
-  artifactKey: Guid(fa3377d6407063241abe4da02313cc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7901.JPG using Guid(fa3377d6407063241abe4da02313cc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5622f0f2cfc0e582b70d16a6553422e') in 0.027794 seconds 
+  Time since last request: 12.851040 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/SnapTurn/snapTurnArrow.mat
+  artifactKey: Guid(b1e683e8bf011f94ab3c2f6d097aa87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/SnapTurn/snapTurnArrow.mat using Guid(b1e683e8bf011f94ab3c2f6d097aa87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda90efa9fba63bd7adf1b653e632b88') in 0.021112 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7903.JPG
-  artifactKey: Guid(4ac74c0190410ef4fb96fa1b6dc6b7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7903.JPG using Guid(4ac74c0190410ef4fb96fa1b6dc6b7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a4522970d428114e2aa97825aa96b8') in 0.029817 seconds 
+  Time since last request: 728.559409 seconds.
+  path: Assets/models/Потолок.prefab
+  artifactKey: Guid(befcd6e6ea503cb43a276730baa069a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Потолок.prefab using Guid(befcd6e6ea503cb43a276730baa069a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf7b305f4154a24d9ba370f82d8fda7') in 0.140687 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7899.JPG
-  artifactKey: Guid(3b11f28594bbe2644a09b62cbf586ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7899.JPG using Guid(3b11f28594bbe2644a09b62cbf586ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5a3375ebdbff64789a2717c69ad842') in 0.037466 seconds 
+  Time since last request: 77.696387 seconds.
+  path: Assets/models/Dome/Cristal.mat
+  artifactKey: Guid(9bc87c2d59c39f0498cd8d994001f37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Dome/Cristal.mat using Guid(9bc87c2d59c39f0498cd8d994001f37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582673af722f7123fab2021ed51c9a43') in 0.032966 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7902.JPG
-  artifactKey: Guid(6db3b6fec3c5ca841b9003652e02fae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7902.JPG using Guid(6db3b6fec3c5ca841b9003652e02fae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c930f4253fa6886f956d3db7659fe3b2') in 0.029351 seconds 
+  Time since last request: 401.708951 seconds.
+  path: Assets/Walls/Walls.obj
+  artifactKey: Guid(7c3c6bd28ff2aa6478410206b7dd859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Walls/Walls.obj using Guid(7c3c6bd28ff2aa6478410206b7dd859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383a0b1ee6d426566b6570c677f0105c') in 0.140888 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7897.JPG
-  artifactKey: Guid(85798646ede76cc40afbad5582f2da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7897.JPG using Guid(85798646ede76cc40afbad5582f2da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603affbac3559d75b8688ef731973c10') in 0.030486 seconds 
+  Time since last request: 0.001272 seconds.
+  path: Assets/Walls/ллobj.obj
+  artifactKey: Guid(3d31f82e800de224bb3d4489bad22582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Walls/ллobj.obj using Guid(3d31f82e800de224bb3d4489bad22582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ceb1db2693b3db776d1a180e9bacb7') in 0.062920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 274.550671 seconds.
+  path: Assets/Labels/Gradient
+  artifactKey: Guid(1010dcbc3f699cc4caf7fafe17ca1cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labels/Gradient using Guid(1010dcbc3f699cc4caf7fafe17ca1cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08196a1c46c10d8383609c947f32cfc2') in 0.011405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.675257 seconds.
+  path: Assets/Labels/Gradient/Labels (1).prefab
+  artifactKey: Guid(d9afb13c14bd5d94c8bc2db5b8fcd772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labels/Gradient/Labels (1).prefab using Guid(d9afb13c14bd5d94c8bc2db5b8fcd772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c25ef157cc58f9d85b05a6497d15537') in 0.214043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.905740 seconds.
+  path: Assets/pointer.prefab
+  artifactKey: Guid(11b946a9c6f0e3940bfe1ea6daf2434b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pointer.prefab using Guid(11b946a9c6f0e3940bfe1ea6daf2434b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc912c64b712bc109b53e89c11b5f9b9') in 0.028481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.799025 seconds.
+  path: Assets/other/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6895ab46bc7dd2bfe9b7066da68509a4') in 0.090847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/other/Front/neuropol x rg SDF.asset
+  artifactKey: Guid(a11c5666fea9b5e40a9db4342bf8b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other/Front/neuropol x rg SDF.asset using Guid(a11c5666fea9b5e40a9db4342bf8b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b2ed1da2dd79e05dfbd37d693918e9') in 0.060984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 392.812234 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Poses/fallback_point.asset
+  artifactKey: Guid(416ca9f76f309e5478daf527e55b0c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Poses/fallback_point.asset using Guid(416ca9f76f309e5478daf527e55b0c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12fe554474b395acc559a68bc7c3ab') in 0.019000 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000256 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7898.JPG
-  artifactKey: Guid(25c2c57e504a6d34784c286f094ade56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/IMG_7898.JPG using Guid(25c2c57e504a6d34784c286f094ade56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9abf0b4104d254a3bc8dd257bc87b41') in 0.028072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.857753 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы
-  artifactKey: Guid(91a226083ed6b0046a0b30c9945f23de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы using Guid(91a226083ed6b0046a0b30c9945f23de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47a92f944dba4732ed073993d28a56d') in 0.007888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058289 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/-V9loNhad4Qv4VYQ3eDQgnOgUm3q8uxqmT4ft60l27QM42Ugl0-_kv-nPMg5rJFpfRIR1ANx.jpg
-  artifactKey: Guid(e6998ac0ee24d5841b9755843f307fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/-V9loNhad4Qv4VYQ3eDQgnOgUm3q8uxqmT4ft60l27QM42Ugl0-_kv-nPMg5rJFpfRIR1ANx.jpg using Guid(e6998ac0ee24d5841b9755843f307fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce7ac6343b3c164767a77e57f72da92') in 0.024972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734738.jpg
-  artifactKey: Guid(a54ae53fd1f59c04598a3686f96cd09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734738.jpg using Guid(a54ae53fd1f59c04598a3686f96cd09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f7cb614dd89e8a7904fd74d4cb27cd') in 0.025906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/pcE_LURw21lSQ2q-5BJ45eGJMCot3Mumvqv1AnyrSbpKMlJKCuGj5WL6CJQL_-BDFdn1Ij7a.jpg
-  artifactKey: Guid(ccbc34b333863714aa9de48321e14aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/pcE_LURw21lSQ2q-5BJ45eGJMCot3Mumvqv1AnyrSbpKMlJKCuGj5WL6CJQL_-BDFdn1Ij7a.jpg using Guid(ccbc34b333863714aa9de48321e14aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f027d989921ca74eaf55366ccaabd9') in 0.024596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/339SGtP-TiFP4pYXo2SKEoN7GWwPRwQdm26i2ZsDZNCUTHgNCB50VGZxvtBDeN4s7Bi4LtR0.jpg
-  artifactKey: Guid(e2d43d6d78c587e4a9c84294c06458bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/339SGtP-TiFP4pYXo2SKEoN7GWwPRwQdm26i2ZsDZNCUTHgNCB50VGZxvtBDeN4s7Bi4LtR0.jpg using Guid(e2d43d6d78c587e4a9c84294c06458bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef06203b456d82a623cae4ecc2fa81e') in 0.028492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/Fx9dtqRgPgn_2LAZ25IOjh57H4_k516QBE7Bvdh_WAGf0TqEPHbmUu_oMlh8DMgyS7MPkCg-.jpg
-  artifactKey: Guid(f39e90813264b994e9e33c4fbd2834dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/Fx9dtqRgPgn_2LAZ25IOjh57H4_k516QBE7Bvdh_WAGf0TqEPHbmUu_oMlh8DMgyS7MPkCg-.jpg using Guid(f39e90813264b994e9e33c4fbd2834dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1083d85bd70d3371139cff897e9537df') in 0.029715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734745.jpg
-  artifactKey: Guid(c6ed485f1f25bf740bd014fb97e8fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734745.jpg using Guid(c6ed485f1f25bf740bd014fb97e8fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77400c5c0c4b72dae02004acdf0edc57') in 0.027717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/NStiH_f08OLVmXZGbV_UfTLWumRr_LWk4Hz-PrU-K2N1qzhjoTD0LOt-zNxLSjTDDNJMoo2x.jpg
-  artifactKey: Guid(d064703f31fa0ee409c69fc1385c527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/NStiH_f08OLVmXZGbV_UfTLWumRr_LWk4Hz-PrU-K2N1qzhjoTD0LOt-zNxLSjTDDNJMoo2x.jpg using Guid(d064703f31fa0ee409c69fc1385c527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9093bc30a6df59b8e333a85b32c15db') in 0.025891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000717 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/jVR5qIf_6oB7dVZ6hDXlIJ5O6_WHmshs3CR7stWGUK5OM0zZic6Ti2TsraOc43CL0SzaxIvC.jpg
-  artifactKey: Guid(31823e522d9b67c47ace54bebdb5211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/jVR5qIf_6oB7dVZ6hDXlIJ5O6_WHmshs3CR7stWGUK5OM0zZic6Ti2TsraOc43CL0SzaxIvC.jpg using Guid(31823e522d9b67c47ace54bebdb5211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c39003a43393399cb67abfe552903fc') in 0.025663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/5gk8smv62mbdZfYk7L_oHQX718Rmj6RtAc3Tx58r5xRX1JmcTtPvNSTxscb1Ww-4aN1GPqT6.jpg
-  artifactKey: Guid(f9f1c841036a7f0419170b4c34b3ac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/5gk8smv62mbdZfYk7L_oHQX718Rmj6RtAc3Tx58r5xRX1JmcTtPvNSTxscb1Ww-4aN1GPqT6.jpg using Guid(f9f1c841036a7f0419170b4c34b3ac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aeba2211cb811ec75256bccca1a16d') in 0.027576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000806 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/OmRkz-pDXr7YHN8tXkydA9JF_P_qzODe3Dbv28NfVZu2H3LoXDY9ZJuMJPGKr2Vi3lWMiQKK.jpg
-  artifactKey: Guid(e547cff773cde7f44b7552e683d15e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/OmRkz-pDXr7YHN8tXkydA9JF_P_qzODe3Dbv28NfVZu2H3LoXDY9ZJuMJPGKr2Vi3lWMiQKK.jpg using Guid(e547cff773cde7f44b7552e683d15e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a943d6830e95cd75d1e7ecda64e4b7') in 0.028539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/0MOGz9RRpYL0R7edJl1jpzeRNZo22syrpR3UtXXf79KffsUlsbxXMy7KuQKphz3657SqmwU6.jpg
-  artifactKey: Guid(f0752a32baafeba4e82b5f6b4b1843fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/0MOGz9RRpYL0R7edJl1jpzeRNZo22syrpR3UtXXf79KffsUlsbxXMy7KuQKphz3657SqmwU6.jpg using Guid(f0752a32baafeba4e82b5f6b4b1843fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f00a9219676617aac6f8b4538640c39') in 0.031218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/photo5422573327517594940.jpg
-  artifactKey: Guid(f9d353d892edeee46bba3950ec95b337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/photo5422573327517594940.jpg using Guid(f9d353d892edeee46bba3950ec95b337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f859cb49843bc29ffe6fb45b2b3d85b') in 0.027152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/RGDcPxmHjLtVZ-k7eoEV2sIIHOG-iYVSwoL9fBEF5CcwGP2S94xoGvd64lZvJbmGFSbs9gzB.jpg
-  artifactKey: Guid(a2a9a982326655746876fdf1479aa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/RGDcPxmHjLtVZ-k7eoEV2sIIHOG-iYVSwoL9fBEF5CcwGP2S94xoGvd64lZvJbmGFSbs9gzB.jpg using Guid(a2a9a982326655746876fdf1479aa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb7255bff95c2643656a093f5fc775b') in 0.029072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734724.jpg
-  artifactKey: Guid(7fc59b3e31673e2498d26524f03898cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734724.jpg using Guid(7fc59b3e31673e2498d26524f03898cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431c483a7576b2df04ea5fc888f1d4b4') in 0.026233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734733.jpg
-  artifactKey: Guid(b493be88c4872da4ba41349ebe58c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734733.jpg using Guid(b493be88c4872da4ba41349ebe58c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b94b70c25c792f22b5952b4a3a439dd') in 0.026107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734736.jpg
-  artifactKey: Guid(5c2762c63c4429443accd9ba2e16ac9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734736.jpg using Guid(5c2762c63c4429443accd9ba2e16ac9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b97040692cd913c48e080aff8a6424') in 0.027100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000708 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/igidd7dGIe119uc-JNxM5fJmemDEzI3RfX6Qw9Fym-AncEgQf711jhK6UpvLj-Q-e7lmxzZwqYNAKnXiFkZ03aXd.jpg
-  artifactKey: Guid(af06ce2ca4e73c24589e54bb6f84ae7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/igidd7dGIe119uc-JNxM5fJmemDEzI3RfX6Qw9Fym-AncEgQf711jhK6UpvLj-Q-e7lmxzZwqYNAKnXiFkZ03aXd.jpg using Guid(af06ce2ca4e73c24589e54bb6f84ae7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ea71cbaff8e05e4e62e1d3a3c3134a') in 0.027413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/wXB5jpp34zEX4UHrmenZMXM2yzkkyxjtHX9vd0gzR_9B016jRL05M1HU5R123zpJJPwZE4ow.jpg
-  artifactKey: Guid(ca676c0f9fa5eb4419bae97baf36f588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/wXB5jpp34zEX4UHrmenZMXM2yzkkyxjtHX9vd0gzR_9B016jRL05M1HU5R123zpJJPwZE4ow.jpg using Guid(ca676c0f9fa5eb4419bae97baf36f588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66404d239b60310eb5b592f677423a39') in 0.025958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/a1a1sODGdxBsjrVuifcb4cSJJif2pIiKdFNRRuiNUa9u-drbUVaJOjNTwaMlK9eKqYw_OSfX.jpg
-  artifactKey: Guid(d47da9769aeeae647b820b53a87319b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/a1a1sODGdxBsjrVuifcb4cSJJif2pIiKdFNRRuiNUa9u-drbUVaJOjNTwaMlK9eKqYw_OSfX.jpg using Guid(d47da9769aeeae647b820b53a87319b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7312901937ce14b3c098208934d1d5') in 0.027314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/JvPr92GIVLLUvMMvPbCM4AjRWZDO0wbFIndE6qJwApPjsc32L949-LgEAy6A7XR6LFS5OEIz.jpg
-  artifactKey: Guid(78d797c119723884c8834fa854a3866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/JvPr92GIVLLUvMMvPbCM4AjRWZDO0wbFIndE6qJwApPjsc32L949-LgEAy6A7XR6LFS5OEIz.jpg using Guid(78d797c119723884c8834fa854a3866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77ba41113b07b4420edaf216a763735') in 0.026132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/PFPcPdQe8B5VrRrt2H7M70xZFksqaGw3rfcQzO2S6cQ4aq_3DXPlzcslaHcW0lzmPuhcWsk8.jpg
-  artifactKey: Guid(4a7c8af8c08d8ed4292b46441b4e8327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/PFPcPdQe8B5VrRrt2H7M70xZFksqaGw3rfcQzO2S6cQ4aq_3DXPlzcslaHcW0lzmPuhcWsk8.jpg using Guid(4a7c8af8c08d8ed4292b46441b4e8327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23d41504c5f821d17a929e2a59cdf67') in 0.028019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734722.jpg
-  artifactKey: Guid(2a29f3c019a53434ebe0de4aeb1da886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/photo5429155493747734722.jpg using Guid(2a29f3c019a53434ebe0de4aeb1da886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265ba6b10c676d5d67335abe8e7f0fbf') in 0.037951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/iOCZMztolpXxTXJxppB8wnN-kg00XIQjnKTohBecD3-VS8xyeghqcRhGZfIjiGwL_piIlUbX.jpg
-  artifactKey: Guid(f75dc7acb3258ff4d8aad21bf760686c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/iOCZMztolpXxTXJxppB8wnN-kg00XIQjnKTohBecD3-VS8xyeghqcRhGZfIjiGwL_piIlUbX.jpg using Guid(f75dc7acb3258ff4d8aad21bf760686c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504cb707d83e82ca3ff81f17a3b17851') in 0.028448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/GpDzDlproa4dWP-KzVDMpAo2RqRyz_h7KWgTpw5hkMQsGo2_sIRdIDhe39R5m2xV4S7WnHyU.jpg
-  artifactKey: Guid(7ee853dbd4a0df44486329bb00fbc9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/GpDzDlproa4dWP-KzVDMpAo2RqRyz_h7KWgTpw5hkMQsGo2_sIRdIDhe39R5m2xV4S7WnHyU.jpg using Guid(7ee853dbd4a0df44486329bb00fbc9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa9c592b87fc9efbaaf3285bc7c6b61') in 0.024732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/62h0eQuom-6RXNoVlDxch9gRndv2045lnQuaBHric3JgElyyGiefpFVBKA_7ry1ucpEUsfb-.jpg
-  artifactKey: Guid(0e6ca8de6ec15324eb05858b8bb01fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/62h0eQuom-6RXNoVlDxch9gRndv2045lnQuaBHric3JgElyyGiefpFVBKA_7ry1ucpEUsfb-.jpg using Guid(0e6ca8de6ec15324eb05858b8bb01fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecbb728a0565ef23a81911be32008a0') in 0.028675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/N0SgACumbCtSgoIIZVzTBybnkeN0FzfRqQst1t0HUNkiI3quHbZE1EcEpWdjgUfERVjJd3fe.jpg
-  artifactKey: Guid(db7443e956ae5934b83ad41d78805769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/N0SgACumbCtSgoIIZVzTBybnkeN0FzfRqQst1t0HUNkiI3quHbZE1EcEpWdjgUfERVjJd3fe.jpg using Guid(db7443e956ae5934b83ad41d78805769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d77c5b21c04dd1bc8254f8201c6363f') in 0.027976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 130.136273 seconds.
-  path: Assets/other/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/other/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b2fb91376a5c23da05f93c1e328c51') in 0.040234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 112.309486 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 195(2)
-  artifactKey: Guid(2add6011173c95e4890bf910d19df56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 195(2) using Guid(2add6011173c95e4890bf910d19df56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc8080d419bdf0a6aeacca39e43ab8f') in 0.006848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.060958 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 195(2)/Scan20220430161600_1.jpeg
-  artifactKey: Guid(101935e57f4fc9d4cb777d63a13e5c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 195(2)/Scan20220430161600_1.jpeg using Guid(101935e57f4fc9d4cb777d63a13e5c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18596318c581425f3ea105c492736e6d') in 0.020709 seconds 
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Prefabs/TeleportPoint.prefab
+  artifactKey: Guid(73ac470d3d909d645a6c89a4664b6849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Prefabs/TeleportPoint.prefab using Guid(73ac470d3d909d645a6c89a4664b6849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6528e6afdd6bbaf9deb3d79d2e64f9d') in 0.072053 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000222 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 195(2)/Scan20220430161712_1.jpeg
-  artifactKey: Guid(49591848f3ce9ec46a3c3f9d72d7178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 195(2)/Scan20220430161712_1.jpeg using Guid(49591848f3ce9ec46a3c3f9d72d7178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339d92ed0739876bb8bec426d7a3b3d0') in 0.022312 seconds 
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointText.mat
+  artifactKey: Guid(7405a0e72d2cbda4184774c25ee70fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointText.mat using Guid(7405a0e72d2cbda4184774c25ee70fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218bcaf79f980444d8aeaaab6418c0ce') in 0.028696 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 110.314943 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 196(1)
-  artifactKey: Guid(fabbf4e3346895f448865de939891525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 196(1) using Guid(fabbf4e3346895f448865de939891525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfbcae65efc764cd393501b55e2ea8b') in 0.006539 seconds 
+  Time since last request: 0.000385 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointInvalid.mat
+  artifactKey: Guid(75bd1350b322bc149ad4b79c719cb687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointInvalid.mat using Guid(75bd1350b322bc149ad4b79c719cb687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652e3d43a29933ea6214644ef7c6a825') in 0.031159 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.131507 seconds.
-  path: Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 196(1)/Scan20220430161300_1.jpeg
-  artifactKey: Guid(2b5d63b3f075ce246bb8d9b43f90e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Газета _На трех этажах_/Газета 196(1)/Scan20220430161300_1.jpeg using Guid(2b5d63b3f075ce246bb8d9b43f90e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a940b944cbe017eb19b7b2b7d357f893') in 0.019254 seconds 
+  Time since last request: 0.000387 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointLocked.mat
+  artifactKey: Guid(c8665e1aa63020343bc825410291e43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointLocked.mat using Guid(c8665e1aa63020343bc825410291e43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9715912abb20d2ef8bd55635a8417c71') in 0.029122 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.961898 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали
-  artifactKey: Guid(415d74647f7c50d4da356a6423340b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали using Guid(415d74647f7c50d4da356a6423340b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1333448416f18f1f4014a617b840d36') in 0.005727 seconds 
+  Time since last request: 0.000197 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointHighlighted.mat
+  artifactKey: Guid(f71819766ca687246a2150260bcfc1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointHighlighted.mat using Guid(f71819766ca687246a2150260bcfc1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6957dcd2358b09d1895ad28bb4083f8') in 0.026675 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 428.079171 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/508ae68d-022d-4a7f-bcfb-0389fb557434.jfif
-  artifactKey: Guid(c5628696201ef3c4daf861535faeb39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/508ae68d-022d-4a7f-bcfb-0389fb557434.jfif using Guid(c5628696201ef3c4daf861535faeb39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb066778a3b07199c7c09b954dec1ca') in 0.010097 seconds 
+  Time since last request: 0.000593 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointHighlighted.mat
+  artifactKey: Guid(92c458d658d953f4588489c06de30b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointHighlighted.mat using Guid(92c458d658d953f4588489c06de30b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66d919dc0212cac3c9b170766fa4685') in 0.024958 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.106551 seconds.
-  path: Assets/фотографии/Школьная жизнь/Инженерные классы/142e800e-3f35-4ba9-bd2b-06acdbaed821.jfif
-  artifactKey: Guid(ee2a2fb40e13afe448ea10742eb6c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Инженерные классы/142e800e-3f35-4ba9-bd2b-06acdbaed821.jfif using Guid(ee2a2fb40e13afe448ea10742eb6c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baee5e2f6a929262ef3fb93be60842a1') in 0.007142 seconds 
+  Time since last request: 0.000588 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointLocked.mat
+  artifactKey: Guid(f855134cdd14ab54fa2838027b3eec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointLocked.mat using Guid(f855134cdd14ab54fa2838027b3eec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85fe9d21096da00c65eebb8b197d081') in 0.031723 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 560.477241 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка
-  artifactKey: Guid(c4a564205e91cd54a845d0ef907a021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка using Guid(c4a564205e91cd54a845d0ef907a021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536fc07a773716787290660f4463c61c') in 0.008070 seconds 
+  Time since last request: 0.000261 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointVisible.mat
+  artifactKey: Guid(bda4e134e1985594ea5aa36ca5a739e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointVisible.mat using Guid(bda4e134e1985594ea5aa36ca5a739e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f681c3e322e568fa8e4d30c89337fcc') in 0.019404 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.063505 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6124.JPG
-  artifactKey: Guid(349a8631132f9294c801045ba8954a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6124.JPG using Guid(349a8631132f9294c801045ba8954a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134d40e9fdc01e73c6802f192cadc4fd') in 0.021909 seconds 
+  Time since last request: 0.000633 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Sounds/TeleportPointerLoop.wav
+  artifactKey: Guid(47b5e90896f0e004c85bebd26e6057e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Sounds/TeleportPointerLoop.wav using Guid(47b5e90896f0e004c85bebd26e6057e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d934fb82cd0977e27db28004ba4be4e') in 0.044991 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6163.JPG
-  artifactKey: Guid(3059aefd13bc10e42a1466ae77495e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6163.JPG using Guid(3059aefd13bc10e42a1466ae77495e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc38da35d68447ff614c496c61678a3') in 0.023996 seconds 
+  Time since last request: 0.000173 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointer.mat
+  artifactKey: Guid(140bd0e59d9bee94f9f0284c9eef5b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointer.mat using Guid(140bd0e59d9bee94f9f0284c9eef5b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dba8a64713d39d45e0b2b11b82a59d') in 0.028260 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6190.JPG
-  artifactKey: Guid(3fab98d107f7e774387c5049ad553d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6190.JPG using Guid(3fab98d107f7e774387c5049ad553d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53779b676c069a7eb37eb6803cf33afc') in 0.025753 seconds 
+  Time since last request: 0.000245 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Sounds/TeleportPointerStart.wav
+  artifactKey: Guid(7113854dded09be418cf3be1158d444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Sounds/TeleportPointerStart.wav using Guid(7113854dded09be418cf3be1158d444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1895940383bc22e1aeb4388a82f927') in 0.027912 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6254.JPG
-  artifactKey: Guid(5dd4179138ad4ab44809a261349b2d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6254.JPG using Guid(5dd4179138ad4ab44809a261349b2d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae08996d3d6081c9be13360609a9510e') in 0.024685 seconds 
+  Time since last request: 0.000300 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointText.mat
+  artifactKey: Guid(6e8b24558e6899742b276a1b6c480de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointText.mat using Guid(6e8b24558e6899742b276a1b6c480de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345130e3c5bd5a747102ec4d15f2b294') in 0.018465 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6174.JPG
-  artifactKey: Guid(97f4af4e5306dab4481858a4fbaa9270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6174.JPG using Guid(97f4af4e5306dab4481858a4fbaa9270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00722ce913d7fe843f2d71ce046e005') in 0.027459 seconds 
+  Time since last request: 0.000587 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointInvalid.mat
+  artifactKey: Guid(69cf60201b6b1c447825fbb5f8d2240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointInvalid.mat using Guid(69cf60201b6b1c447825fbb5f8d2240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a1252466150aab1f0673a603d9b542') in 0.025060 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6172.JPG
-  artifactKey: Guid(a995380a9bf678447866f661e9ae9c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6172.JPG using Guid(a995380a9bf678447866f661e9ae9c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f134f9b38d32f6f9529cb80603e2792f') in 0.023343 seconds 
+  Time since last request: 0.000316 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointer.mat
+  artifactKey: Guid(da2a09186fc8dfa4c9f1c2933159f94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointer.mat using Guid(da2a09186fc8dfa4c9f1c2933159f94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7af30f920656207f5f25380457d04e') in 0.018858 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000947 seconds.
-  path: Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6271.JPG
-  artifactKey: Guid(7aed392a2790c214f89de94be5834dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/фотографии/Школьная жизнь/Кинофестивали/Новая папка/IMG_6271.JPG using Guid(7aed392a2790c214f89de94be5834dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7aeef3c24cfebbeb6fc5edfc0d156c0') in 0.027681 seconds 
+  Time since last request: 0.000310 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointVisible.mat
+  artifactKey: Guid(510c6e0b8b5c948458c2b4bc3de5a637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointVisible.mat using Guid(510c6e0b8b5c948458c2b4bc3de5a637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dea4371278110fdf8a6bed0863ef6c3') in 0.014857 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 295.914108 seconds.
-  path: Assets/models/стол/1/стол/Материал.mat
-  artifactKey: Guid(f1e34ebbd87f75340b81d9e57549e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/стол/1/стол/Материал.mat using Guid(f1e34ebbd87f75340b81d9e57549e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05c13cb0bac3a21c39861160af0db76') in 0.022555 seconds 
+  Time since last request: 138.097766 seconds.
+  path: Assets/scripts/Pointer.cs
+  artifactKey: Guid(22192f959bf543c4ab874d7a820c43c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Pointer.cs using Guid(22192f959bf543c4ab874d7a820c43c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fa19fcab1df7640f0f92d036ba4a12') in 0.008938 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/models/стол/1/стол/Сердце детям отдаю.mat
-  artifactKey: Guid(aec770060800ab14d97f30b5f7451783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/стол/1/стол/Сердце детям отдаю.mat using Guid(aec770060800ab14d97f30b5f7451783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cd2ab906dfbc7ef5e231c091eb0774') in 0.045384 seconds 
+  Time since last request: 328.107365 seconds.
+  path: Assets/VR/SteamVR/Prefabs/[SteamVR].prefab
+  artifactKey: Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/Prefabs/[SteamVR].prefab using Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d973e1a120158cfd208d7c46a5ade3') in 0.074274 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 294.809262 seconds.
-  path: Assets/materials/Wall
-  artifactKey: Guid(e3435df1adfa826409e613eec0198902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Wall using Guid(e3435df1adfa826409e613eec0198902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b101ed0c33f8962007e95855989c2013') in 0.005863 seconds 
+  Time since last request: 0.000662 seconds.
+  path: Assets/VR/SteamVR/Models/Materials/models_hands_vr_glove.vmat.mat
+  artifactKey: Guid(fad1eadf5b103e94ebbe02490afe0503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/Models/Materials/models_hands_vr_glove.vmat.mat using Guid(fad1eadf5b103e94ebbe02490afe0503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e028816605a4ce1fae402605842d91fe') in 0.079946 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.419152 seconds.
-  path: Assets/materials/Floor/Материал.002.mat
-  artifactKey: Guid(bc69116ca1b297c42b71fe5c5845ee6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Floor/Материал.002.mat using Guid(bc69116ca1b297c42b71fe5c5845ee6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b937e93d9829893b5686b36a84dc649d') in 0.043169 seconds 
+  Time since last request: 0.000241 seconds.
+  path: Assets/XR/Loaders/Open VR Loader.asset
+  artifactKey: Guid(9dcef4d28d5d2384181e5d5f71ec5e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Open VR Loader.asset using Guid(9dcef4d28d5d2384181e5d5f71ec5e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7872428988bb25feb46d94a669010d8c') in 0.036495 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 256.389357 seconds.
-  path: Assets/models/Подставки/4/Первые шаги 1.mat
-  artifactKey: Guid(e95bc9b805193ed409ff1ef2e99a897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Первые шаги 1.mat using Guid(e95bc9b805193ed409ff1ef2e99a897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3fe2f0a91cf4a5b1018f518dbfa29f') in 0.016740 seconds 
+  Time since last request: 0.000273 seconds.
+  path: Assets/XR/Settings/Open VR Settings.asset
+  artifactKey: Guid(e66dc0225b150674c9f798137b5e2578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Open VR Settings.asset using Guid(e66dc0225b150674c9f798137b5e2578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ac3111723b2d45fcd8895533f09ec8') in 0.678476 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/models/Подставки/4/Школьная дизнь.mat
-  artifactKey: Guid(55d895b4df6d6694cb360579b367cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Школьная дизнь.mat using Guid(55d895b4df6d6694cb360579b367cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d7c85b8246cdc6c1f066a8bbfd7585') in 0.011847 seconds 
+  Time since last request: 241.964995 seconds.
+  path: Assets/models/робот/робот-экран нарисован.blend1
+  artifactKey: Guid(341c45cab6fd0a241b43ac142202e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/робот/робот-экран нарисован.blend1 using Guid(341c45cab6fd0a241b43ac142202e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7b3c432ed5544dea712e8608210ff3') in 0.007576 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.556588 seconds.
-  path: Assets/models/Подставки/4/Первые шаги 1.mat
-  artifactKey: Guid(e95bc9b805193ed409ff1ef2e99a897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Первые шаги 1.mat using Guid(e95bc9b805193ed409ff1ef2e99a897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e549ae5140f9e8c9f1a963947afe671') in 0.014004 seconds 
+  Time since last request: 261.952020 seconds.
+  path: Assets/models/робот/guid_canvas (2).prefab
+  artifactKey: Guid(c0c02e542fc8dfe45a19b3d72da4e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/робот/guid_canvas (2).prefab using Guid(c0c02e542fc8dfe45a19b3d72da4e480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2286c3821a3b9da4da5b916f6f8da62d') in 0.114514 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/models/Подставки/4/Первые шаги 2.mat
-  artifactKey: Guid(e3dbfd3dd01702441bee63281c24d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Первые шаги 2.mat using Guid(e3dbfd3dd01702441bee63281c24d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20237133bc331c26dbb85ef07323e491') in 0.014986 seconds 
+  Time since last request: 1103.904316 seconds.
+  path: Assets/HologramEffect/New Material 1.mat
+  artifactKey: Guid(e2b1039e079dc0344ad908c2640560ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HologramEffect/New Material 1.mat using Guid(e2b1039e079dc0344ad908c2640560ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a89df1ea3404c39f7205dd67d16a5b') in 0.131663 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.639491 seconds.
-  path: Assets/models/Подставки/4/Школьные проекты.mat
-  artifactKey: Guid(e3dbfd3dd01702441bee63281c24d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Школьные проекты.mat using Guid(e3dbfd3dd01702441bee63281c24d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87db14d6eb02f4efebf5181c749a333f') in 0.014856 seconds 
+  Time since last request: 0.000296 seconds.
+  path: Assets/HologramEffect/Безымянный.png
+  artifactKey: Guid(da4c7957845d511449dccf8fd2f761d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HologramEffect/Безымянный.png using Guid(da4c7957845d511449dccf8fd2f761d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6c390b86a852dd6e36f103f7783551') in 0.128842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.032113 seconds.
-  path: Assets/models/Подставки/4/Директора.mat
-  artifactKey: Guid(e95bc9b805193ed409ff1ef2e99a897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Директора.mat using Guid(e95bc9b805193ed409ff1ef2e99a897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63616ecd602077ec6e085af9b238464') in 0.012577 seconds 
+  Time since last request: 0.000195 seconds.
+  path: Assets/HologramEffect/TexturesCom_Tiles_Plain2_1K_normal.tif
+  artifactKey: Guid(096ed97adf1891942a1f912f04bfff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HologramEffect/TexturesCom_Tiles_Plain2_1K_normal.tif using Guid(096ed97adf1891942a1f912f04bfff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a6d6a04679bdfe83e1f1d4ef2743d3') in 0.043403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.759003 seconds.
-  path: Assets/models/Подставки/4/Директора 1.mat
-  artifactKey: Guid(323145629bd2495498c02882e6d25f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Директора 1.mat using Guid(323145629bd2495498c02882e6d25f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552a899d4f926b2ca70dd225ab5ab661') in 0.017875 seconds 
+  Time since last request: 0.000901 seconds.
+  path: Assets/HologramEffect/TexturesCom_Tiles_Plain2_1K_ao.tif
+  artifactKey: Guid(86e2b9ebcda9fe149a5272cd406245e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HologramEffect/TexturesCom_Tiles_Plain2_1K_ao.tif using Guid(86e2b9ebcda9fe149a5272cd406245e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f13ee0e22759622f0f7dbb0275fd2b') in 0.027795 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/models/Подставки/4/Директора.mat
-  artifactKey: Guid(e95bc9b805193ed409ff1ef2e99a897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Директора.mat using Guid(e95bc9b805193ed409ff1ef2e99a897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0622554361b72bba66d71c87355e0abe') in 0.017148 seconds 
+  Time since last request: 0.000213 seconds.
+  path: Assets/HologramEffect/TexturesCom_Tiles_Plain2_1K_height.tif
+  artifactKey: Guid(1b66e2ca190118e4687132972ba9ba1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HologramEffect/TexturesCom_Tiles_Plain2_1K_height.tif using Guid(1b66e2ca190118e4687132972ba9ba1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc9f5786e555953253a89fca3fe0c36') in 0.033382 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.580833 seconds.
-  path: Assets/models/Подставки/4/Гимназия сегодня.mat
-  artifactKey: Guid(323145629bd2495498c02882e6d25f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Гимназия сегодня.mat using Guid(323145629bd2495498c02882e6d25f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0b1fa1852726903f987d2bd938940f') in 0.022654 seconds 
+  Time since last request: 0.000218 seconds.
+  path: Assets/HologramEffect/Particle System.prefab
+  artifactKey: Guid(7671a8feb3d0d9e42b7ee6d60cb79d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HologramEffect/Particle System.prefab using Guid(7671a8feb3d0d9e42b7ee6d60cb79d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbadab454804db16757acb865dd2d2d') in 0.051508 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.193281 seconds.
-  path: Assets/models/Подставки/4/New Material 1.mat
-  artifactKey: Guid(928c3baff0d9ea946b90ca4f13357343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/New Material 1.mat using Guid(928c3baff0d9ea946b90ca4f13357343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7151747c9adca8158f4a8cc25e2cfdc7') in 0.012220 seconds 
+  Time since last request: 156.314804 seconds.
+  path: Assets/models/Furniture.prefab
+  artifactKey: Guid(5fb3352cbf886d64dbe51c5db08fbdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Furniture.prefab using Guid(5fb3352cbf886d64dbe51c5db08fbdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd087878f1eeb2eb34e78d4d5133f2552') in 0.353149 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/models/Подставки/4/Гимназия сегодня.mat
-  artifactKey: Guid(323145629bd2495498c02882e6d25f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Гимназия сегодня.mat using Guid(323145629bd2495498c02882e6d25f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43edf3d2153ca9e231cd0ff4f60686ba') in 0.011728 seconds 
+  Time since last request: 490.215390 seconds.
+  path: Assets/Walls/Particle System.prefab
+  artifactKey: Guid(9312e8d201ff8c34ebb3d3e987a835e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Walls/Particle System.prefab using Guid(9312e8d201ff8c34ebb3d3e987a835e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69709b2af1ef67d3725620610f21760c') in 0.035791 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.066607 seconds.
-  path: Assets/models/Подставки/4/Стены.mat
-  artifactKey: Guid(928c3baff0d9ea946b90ca4f13357343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Стены.mat using Guid(928c3baff0d9ea946b90ca4f13357343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20c7a013e3eeb94804b4f71b8d160b3') in 0.012271 seconds 
+  Time since last request: 118.065270 seconds.
+  path: Assets/Walls/Particle System.prefab
+  artifactKey: Guid(9312e8d201ff8c34ebb3d3e987a835e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Walls/Particle System.prefab using Guid(9312e8d201ff8c34ebb3d3e987a835e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8750d858bb589fba20c57a2b73a8e104') in 0.026747 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 125.239437 seconds.
-  path: Assets/models/Подставки/4/Стены.mat
-  artifactKey: Guid(928c3baff0d9ea946b90ca4f13357343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Стены.mat using Guid(928c3baff0d9ea946b90ca4f13357343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51d5b53c8472003cefb5d7c7f04680b') in 0.013914 seconds 
+  Time since last request: 299.986052 seconds.
+  path: Assets/Walls/Гордость Гимназии.prefab
+  artifactKey: Guid(9312e8d201ff8c34ebb3d3e987a835e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Walls/Гордость Гимназии.prefab using Guid(9312e8d201ff8c34ebb3d3e987a835e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704418f967264d66fbb77d7fe415768f') in 0.029478 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 201.917502 seconds.
-  path: Assets/models/Подставки/4/Стены.mat
-  artifactKey: Guid(928c3baff0d9ea946b90ca4f13357343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Стены.mat using Guid(928c3baff0d9ea946b90ca4f13357343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca89e891b5791aabfddfbefad2957d08') in 0.015176 seconds 
+  Time since last request: 69.343123 seconds.
+  path: Assets/models/логотипы/Gimnasium/Вариант 2/вАРИАНТ 1.blend1
+  artifactKey: Guid(26f987a7dcb23da42a1427ca10d8b92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/логотипы/Gimnasium/Вариант 2/вАРИАНТ 1.blend1 using Guid(26f987a7dcb23da42a1427ca10d8b92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5665294da569ad00fab1818c0352e5a4') in 0.010358 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/models/Подставки/4/Школьная дизнь.mat
-  artifactKey: Guid(55d895b4df6d6694cb360579b367cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Подставки/4/Школьная дизнь.mat using Guid(55d895b4df6d6694cb360579b367cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2473cabb5cf374f552334f046c9f4eec') in 0.012087 seconds 
+  Time since last request: 702.618587 seconds.
+  path: Assets/models/логотипы/Gimnasium/Вариант 2/Particle System.prefab
+  artifactKey: Guid(b188e1058bbdec34f8998f5a32228597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/логотипы/Gimnasium/Вариант 2/Particle System.prefab using Guid(b188e1058bbdec34f8998f5a32228597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e42897607ea195f99b2cc29db2110e') in 0.038097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.415643 seconds.
+  path: Assets/models/логотипы/Gimnasium/Вариант 2/Сердце детям отдаю.prefab
+  artifactKey: Guid(b188e1058bbdec34f8998f5a32228597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/логотипы/Gimnasium/Вариант 2/Сердце детям отдаю.prefab using Guid(b188e1058bbdec34f8998f5a32228597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c016a6db14e171dd016ac1588d25e48f') in 0.027153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.876624 seconds.
+  path: Assets/models/логотипы/Gimnasium/Вариант 2/Canvas.prefab
+  artifactKey: Guid(709480a7451aa4446953ac0c0ae136f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/логотипы/Gimnasium/Вариант 2/Canvas.prefab using Guid(709480a7451aa4446953ac0c0ae136f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea27ee023a6cdc2363fbddf1d6d5d82') in 0.049244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 743.621018 seconds.
+  path: Assets/models/логотипы/Gim_media/gim media.fbx
+  artifactKey: Guid(73febb4759f76da47aef6b8cb7389ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/логотипы/Gim_media/gim media.fbx using Guid(73febb4759f76da47aef6b8cb7389ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87a68ab64062ca778e56ce664568c5a') in 0.115663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 361.377399 seconds.
+  path: Assets/models/логотипы/Particle System.prefab
+  artifactKey: Guid(74fe870ae0691b9479b873e6613f0813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/логотипы/Particle System.prefab using Guid(74fe870ae0691b9479b873e6613f0813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec2114b8f55a3eea914335b36b77d96') in 0.030881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 531.522447 seconds.
+  path: Assets/VR/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/dusty/wg_dust_particles_11.png
+  artifactKey: Guid(a742eafd25923234ca4d16db1a12aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/dusty/wg_dust_particles_11.png using Guid(a742eafd25923234ca4d16db1a12aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a3b8d3b1d5b514612ffb9058288eb8') in 0.053299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.204659 seconds.
+  path: Assets/models/Particle System.prefab
+  artifactKey: Guid(1f393bc37b9ba37499fddd779e50d744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Particle System.prefab using Guid(1f393bc37b9ba37499fddd779e50d744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfb39810be1ad02ece26ece13182844') in 0.028722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.909245 seconds.
+  path: Assets/models/Light_spots/Материал.mat
+  artifactKey: Guid(5bb60278f740abe40bc04236265582bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Light_spots/Материал.mat using Guid(5bb60278f740abe40bc04236265582bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e538810a07c225b7bf36ac2955444650') in 0.011362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22042.550183 seconds.
+  path: Assets/models/Dome/Cristapanal.fbx
+  artifactKey: Guid(c4c43a58ec6f28248ac32b5f24b023db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Dome/Cristapanal.fbx using Guid(c4c43a58ec6f28248ac32b5f24b023db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f73e124630f42c579925ff8aa472361') in 0.141570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.595304 seconds.
+  path: Assets/models/Dome/Cristapanal.fbx
+  artifactKey: Guid(c4c43a58ec6f28248ac32b5f24b023db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Dome/Cristapanal.fbx using Guid(c4c43a58ec6f28248ac32b5f24b023db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929341790d0e1c677ad9a49f36c676cc') in 0.033069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.184384 seconds.
+  path: Assets/models/Dome/Cristal.mat
+  artifactKey: Guid(9bc87c2d59c39f0498cd8d994001f37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Dome/Cristal.mat using Guid(9bc87c2d59c39f0498cd8d994001f37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3f2f927158871c11a1e110f078c2f9') in 0.020793 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
